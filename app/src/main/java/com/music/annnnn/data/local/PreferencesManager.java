@@ -33,7 +33,7 @@ public class PreferencesManager {
     }
 
     public int getThemeMode() {
-        return prefs.getInt(KEY_THEME_MODE, 2);
+        return prefs.getInt(KEY_THEME_MODE, 0);
     }
 
     public void setThemeMode(int mode) {
@@ -56,11 +56,11 @@ public class PreferencesManager {
     }
 
     public String getThemePresetId() {
-        return prefs.getString(KEY_THEME_PRESET, "botanical_forest");
+        return prefs.getString(KEY_THEME_PRESET, "neumorphic_classic");
     }
 
     public void setThemePresetId(String presetId) {
-        prefs.edit().putString(KEY_THEME_PRESET, presetId != null ? presetId : "botanical_forest").apply();
+        prefs.edit().putString(KEY_THEME_PRESET, presetId != null ? presetId : "neumorphic_classic").apply();
     }
 
     public int getGlassIntensity() {

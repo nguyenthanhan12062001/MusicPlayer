@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="6dp"
-    android:background="@drawable/bg_glass_card"
+    android:background="@drawable/bg_soft_card"
     android:foreground="?attr/selectableItemBackground"
     android:gravity="center_vertical"
     android:minHeight="68dp"

@@ -1,6 +1,7 @@
 package com.music.annnnn.util;
 
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.RenderEffect;
 import android.graphics.Shader;
@@ -23,8 +24,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Manages Linear Gradient presets (6 Light presets and exactly 2 Dark presets: AMOLED & Charcoal Gray)
- * and Botanical / Glassmorphism backdrop rendering.
+ * Manages Soft Neumorphic & Minimalist UI theme presets (6 Light soft neumorphic presets and 6 Soft Dark presets).
  */
 public final class ThemeStudioManager {
 
@@ -54,17 +54,21 @@ public final class ThemeStudioManager {
     }
 
     private static final List<ThemePreset> PRESETS = Collections.unmodifiableList(Arrays.asList(
-            // Light Presets (6 airy pastel gradients)
-            new ThemePreset("air_mint", R.string.theme_preset_air_mint, 0xFFF2FBF6, 0xFFE0F4EA, 0xFFD0EBDD, 0xFF38A36F, 0xFF287A54, false),
-            new ThemePreset("soft_lavender", R.string.theme_preset_lavender, 0xFFF8F6FC, 0xFFEFEBF8, 0xFFE5DFF3, 0xFF8B5CF6, 0xFF7C3AED, false),
-            new ThemePreset("ocean_breeze", R.string.theme_preset_ocean_breeze, 0xFFF0F7FC, 0xFFE1EFEF, 0xFFD0E4F5, 0xFF0284C7, 0xFF0369A1, false),
-            new ThemePreset("sunset_peach", R.string.theme_preset_sunset_peach, 0xFFFAF5F0, 0xFFF5EAE2, 0xFFEFE0D5, 0xFFF97316, 0xFFEA580C, false),
-            new ThemePreset("vanilla_gold", R.string.theme_preset_vanilla_gold, 0xFFFAF7F2, 0xFFF2EAD8, 0xFFEAE0C8, 0xFFCA8A04, 0xFFA16207, false),
-            new ThemePreset("rose_quartz", R.string.theme_preset_rose_quartz, 0xFFFAF0F5, 0xFFF5E0EC, 0xFFEFE0E9, 0xFFEC4899, 0xFFDB2777, false),
+            // Light Presets (6 Soft Neumorphic light pastel gradients matching sample reference image)
+            new ThemePreset("neumorphic_classic", R.string.theme_preset_classic, 0xFFE8EDF5, 0xFFEEF2F7, 0xFFF4F7FB, 0xFF6366F1, 0xFF4F46E5, false),
+            new ThemePreset("air_mint", R.string.theme_preset_air_mint, 0xFFEAF4EE, 0xFFF0FAF3, 0xFFF6FFF8, 0xFF10B981, 0xFF059669, false),
+            new ThemePreset("soft_lavender", R.string.theme_preset_lavender, 0xFFF0EEF8, 0xFFF5F3FC, 0xFFFAF8FF, 0xFF8B5CF6, 0xFF7C3AED, false),
+            new ThemePreset("ocean_breeze", R.string.theme_preset_ocean_breeze, 0xFFEBF3F9, 0xFFF0F7FC, 0xFFF6FAFE, 0xFF0284C7, 0xFF0369A1, false),
+            new ThemePreset("sunset_peach", R.string.theme_preset_sunset_peach, 0xFFF9F2EE, 0xFFFCF6F2, 0xFFFEFAF6, 0xFFF97316, 0xFFEA580C, false),
+            new ThemePreset("rose_quartz", R.string.theme_preset_rose_quartz, 0xFFF9EEF4, 0xFFFCF2F7, 0xFFFEF6FA, 0xFFEC4899, 0xFFDB2777, false),
 
-            // Dark Presets (Exactly 2: AMOLED Black & Charcoal Gray)
-            new ThemePreset("amoled_black", R.string.theme_preset_amoled, 0xFF000000, 0xFF080808, 0xFF020202, 0xFF5CC990, 0xFF34D399, true),
-            new ThemePreset("charcoal_gray", R.string.theme_preset_charcoal, 0xFF141414, 0xFF1E1E1E, 0xFF181818, 0xFF38BDF8, 0xFF818CF8, true)
+            // Dark Presets (6 soft dark, deep, non-gloomy presets with soft neumorphic depth)
+            new ThemePreset("midnight_obsidian", R.string.theme_preset_midnight, 0xFF121824, 0xFF1A2332, 0xFF0F172A, 0xFF38BDF8, 0xFF0284C7, true),
+            new ThemePreset("charcoal_slate", R.string.theme_preset_charcoal, 0xFF161B22, 0xFF21262D, 0xFF111418, 0xFF5CC990, 0xFF38A36F, true),
+            new ThemePreset("deep_espresso", R.string.theme_preset_espresso, 0xFF1C1614, 0xFF2A211E, 0xFF16110F, 0xFFFB923C, 0xFFEA580C, true),
+            new ThemePreset("mystic_indigo", R.string.theme_preset_indigo, 0xFF161625, 0xFF22223B, 0xFF10101D, 0xFFA78BFA, 0xFF7C3AED, true),
+            new ThemePreset("emerald_night", R.string.theme_preset_emerald, 0xFF101B15, 0xFF182A20, 0xFF0C1410, 0xFF4ADE80, 0xFF22C55E, true),
+            new ThemePreset("bordeaux_wine", R.string.theme_preset_bordeaux, 0xFF1C1417, 0xFF2B1F24, 0xFF150F11, 0xFFF43F5E, 0xFFE11D48, true)
     ));
 
     private static final MutableLiveData<Integer> THEME_VERSION = new MutableLiveData<>(0);
@@ -91,9 +95,26 @@ public final class ThemeStudioManager {
         return list;
     }
 
+    public static boolean isDarkModeActive(Context context) {
+        PreferencesManager prefs = new PreferencesManager(context);
+        int themeMode = prefs.getThemeMode();
+        if (themeMode == 2) return true;
+        if (themeMode == 1) return false;
+        int currentNightMode = context.getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+        return currentNightMode == Configuration.UI_MODE_NIGHT_YES;
+    }
+
     public static ThemePreset getActivePreset(Context context) {
         PreferencesManager prefs = new PreferencesManager(context);
-        return getPresetById(prefs.getThemePresetId());
+        ThemePreset preset = getPresetById(prefs.getThemePresetId());
+        boolean isDark = isDarkModeActive(context);
+        if (preset.isDark != isDark) {
+            List<ThemePreset> available = isDark ? getDarkPresets() : getLightPresets();
+            if (!available.isEmpty()) {
+                return available.get(0);
+            }
+        }
+        return preset;
     }
 
     public static ThemePreset getPresetById(String id) {
@@ -104,7 +125,7 @@ public final class ThemeStudioManager {
                 }
             }
         }
-        return PRESETS.get(6); // default to amoled_black if null
+        return PRESETS.get(0);
     }
 
     public static void selectPreset(Context context, String presetId) {
@@ -143,22 +164,22 @@ public final class ThemeStudioManager {
             ThemePreset previewPreset
     ) {
         PreferencesManager prefs = new PreferencesManager(context);
-        ThemePreset preset = previewPreset != null ? previewPreset : getPresetById(prefs.getThemePresetId());
+        ThemePreset preset = previewPreset != null ? previewPreset : getActivePreset(context);
         int intensity = prefs.getGlassIntensity(); // 15..95
 
         if (foliageView != null) {
             foliageView.setImageResource(R.drawable.img_botanical_bg);
-            float foliageAlpha = preset.isDark ? (0.16f + (intensity / 100f) * 0.3f) : (0.08f + (intensity / 100f) * 0.15f);
+            float foliageAlpha = preset.isDark ? (0.16f + (intensity / 100f) * 0.3f) : (0.06f + (intensity / 100f) * 0.12f);
             foliageView.setAlpha(foliageAlpha);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-                foliageView.setRenderEffect(RenderEffect.createBlurEffect(24f, 24f, Shader.TileMode.CLAMP));
+                foliageView.setRenderEffect(RenderEffect.createBlurEffect(28f, 28f, Shader.TileMode.CLAMP));
             }
         }
 
         if (gradientOverlayView != null) {
-            int topAlpha = Math.round((0.92f - (intensity / 100f) * 0.15f) * 255f);
-            int midAlpha = Math.round((0.85f - (intensity / 100f) * 0.18f) * 255f);
-            int botAlpha = Math.round((0.96f - (intensity / 100f) * 0.10f) * 255f);
+            int topAlpha = Math.round((0.95f - (intensity / 100f) * 0.12f) * 255f);
+            int midAlpha = Math.round((0.90f - (intensity / 100f) * 0.15f) * 255f);
+            int botAlpha = Math.round((0.98f - (intensity / 100f) * 0.08f) * 255f);
 
             int c1 = ColorUtils.setAlphaComponent(preset.startColor, topAlpha);
             int c2 = ColorUtils.setAlphaComponent(preset.midColor, midAlpha);
@@ -172,8 +193,8 @@ public final class ThemeStudioManager {
         }
 
         if (ambientOrbView != null) {
-            int center = ColorUtils.setAlphaComponent(preset.accentColor, preset.isDark ? 50 : 30);
-            int mid = ColorUtils.setAlphaComponent(preset.accentSecondaryColor, preset.isDark ? 20 : 12);
+            int center = ColorUtils.setAlphaComponent(preset.accentColor, preset.isDark ? 50 : 25);
+            int mid = ColorUtils.setAlphaComponent(preset.accentSecondaryColor, preset.isDark ? 20 : 10);
             int edge = Color.TRANSPARENT;
             GradientDrawable orb = new GradientDrawable();
             orb.setShape(GradientDrawable.OVAL);

@@ -105,7 +105,7 @@
                     android:layout_marginHorizontal="16dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/bg_glass_card"
+                    android:background="@drawable/bg_soft_card"
                     android:gravity="center_horizontal"
                     android:orientation="vertical"
                     android:paddingHorizontal="20dp"

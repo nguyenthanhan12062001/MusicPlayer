@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Light Mode: Bright, airy, high contrast dark text on light background -->
-    <color name="zing_purple">#38A36F</color>
-    <color name="zing_purple_dark">#287A54</color>
-    <color name="zing_pink">#E86F83</color>
-    <color name="zing_lavender_soft">#2038A36F</color>
-    <color name="zing_gradient_start">#40B582</color>
-    <color name="zing_gradient_end">#86C29E</color>
+    <!-- Soft Neumorphic Light Theme (Matching Reference Image) -->
+    <color name="zing_purple">#6366F1</color>
+    <color name="zing_purple_dark">#4F46E5</color>
+    <color name="zing_pink">#EC4899</color>
+    <color name="zing_lavender_soft">#206366F1</color>
+    <color name="zing_gradient_start">#818CF8</color>
+    <color name="zing_gradient_end">#4F46E5</color>
 
-    <color name="bg_primary">#F5F8F6</color>
-    <color name="bg_surface">#FFFFFF</color>
-    <color name="bg_surface_elevated">#FFFFFF</color>
-    <color name="bg_surface_variant">#EBF3EE</color>
-    <color name="bg_nav_bar">#F0F5F2</color>
-    <color name="bg_mini_player">#FFFFFF</color>
-    <color name="bg_bottom_sheet">#FFFFFF</color>
-    <color name="bg_chip">#E2EFE9</color>
+    <color name="bg_primary">#E8EDF5</color>
+    <color name="bg_surface">#EEF2F7</color>
+    <color name="bg_surface_elevated">#F4F7FB</color>
+    <color name="bg_surface_variant">#E2E8F0</color>
+    <color name="bg_nav_bar">#E5EBF3</color>
+    <color name="bg_mini_player">#EEF2F7</color>
+    <color name="bg_bottom_sheet">#EEF2F7</color>
+    <color name="bg_chip">#E2E8F0</color>
 
-    <color name="text_primary">#08120D</color>
-    <color name="text_secondary">#2D5240</color>
-    <color name="text_tertiary">#5A806D</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_tertiary">#94A3B8</color>
     <color name="text_on_accent">#FFFFFF</color>
 
-    <color name="divider_subtle">#D2E4DC</color>
-    <color name="stroke_card">#B8D4C8</color>
-    <color name="icon_inactive">#4A6B5C</color>
-    <color name="icon_active">#38A36F</color>
+    <color name="divider_subtle">#CBD5E1</color>
+    <color name="stroke_card">#FFFFFF</color>
+    <color name="icon_inactive">#64748B</color>
+    <color name="icon_active">#6366F1</color>
 
     <!-- Semantic & Status Colors -->
-    <color name="rank_gold">#D99B1A</color>
-    <color name="rank_silver">#1A7AD9</color>
-    <color name="rank_bronze">#C94A5C</color>
+    <color name="rank_gold">#D97706</color>
+    <color name="rank_silver">#0284C7</color>
+    <color name="rank_bronze">#DC2626</color>
     <color name="status_success">#16A34A</color>
     <color name="status_error">#DC2626</color>
     <color name="status_warning">#D97706</color>

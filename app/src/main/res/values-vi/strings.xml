@@ -321,4 +321,10 @@
     <string name="theme_preset_cyber">Cyber Tím</string>
     <string name="theme_preset_golden">Rêu vàng</string>
     <string name="theme_preset_rose">Hồng sương</string>
+    <string name="theme_preset_midnight">Đêm huyền ảo</string>
+    <string name="theme_preset_espresso">Cà phê đậm</string>
+    <string name="theme_preset_indigo">Indigo huyền bí</string>
+    <string name="theme_preset_emerald">Lục bảo tối</string>
+    <string name="theme_preset_bordeaux">Rượu vang</string>
+    <string name="theme_preset_classic">Cổ điển Neumorphic</string>
 </resources>

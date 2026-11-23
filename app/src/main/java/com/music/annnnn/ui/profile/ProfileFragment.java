@@ -16,6 +16,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.button.MaterialButtonToggleGroup;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.music.annnnn.R;
 import com.music.annnnn.data.local.AppDatabase;
@@ -26,6 +27,7 @@ import com.music.annnnn.util.ThemeStudioManager;
 import com.music.annnnn.util.TimeFormatter;
 import com.music.annnnn.viewmodel.MainViewModel;
 
+import java.util.List;
 import java.util.Locale;
 
 public class ProfileFragment extends Fragment {
@@ -34,7 +36,6 @@ public class ProfileFragment extends Fragment {
     private PreferencesManager prefs;
 
     private TextView tvName;
-    private TextView tvActiveThemePreset;
     private TextView tvStatPlays;
     private TextView tvStatTime;
     private TextView tvStatDownloaded;
@@ -42,7 +43,6 @@ public class ProfileFragment extends Fragment {
     private TextView tvAudioSummary;
     private TextView tvStorageSummary;
     private TextView tvLanguageSummary;
-    private ThemePresetAdapter themeAdapter;
 
     @Nullable
     @Override
@@ -57,7 +57,6 @@ public class ProfileFragment extends Fragment {
         prefs = viewModel.getPreferences();
 
         tvName = view.findViewById(R.id.tv_profile_name);
-        tvActiveThemePreset = view.findViewById(R.id.tv_active_theme_preset);
         tvStatPlays = view.findViewById(R.id.tv_stat_plays);
         tvStatTime = view.findViewById(R.id.tv_stat_time);
         tvStatDownloaded = view.findViewById(R.id.tv_stat_downloaded);
@@ -83,7 +82,7 @@ public class ProfileFragment extends Fragment {
         view.findViewById(R.id.row_profile_history).setOnClickListener(v ->
                 DetailActivity.openSection(requireContext(), DetailActivity.TYPE_RECENT, getString(R.string.library_recent), 0, null));
 
-        setupThemeStudio(view);
+        setupThemeModeToggle(view);
         view.findViewById(R.id.row_player_settings).setOnClickListener(v -> showPlayerSettingsDialog());
         view.findViewById(R.id.row_audio_settings).setOnClickListener(v -> showAudioSettingsDialog());
         view.findViewById(R.id.row_storage_manage).setOnClickListener(v -> showStorageDialog());
@@ -111,33 +110,33 @@ public class ProfileFragment extends Fragment {
         }
     }
 
-    private void setupThemeStudio(View view) {
-        ThemeStudioManager.ThemePreset active = ThemeStudioManager.getActivePreset(requireContext());
-        tvActiveThemePreset.setText(active.nameRes);
+    private void setupThemeModeToggle(View view) {
+        MaterialButtonToggleGroup toggleGroup = view.findViewById(R.id.toggle_theme_group);
+        if (toggleGroup == null) return;
 
-        RecyclerView rvPresets = view.findViewById(R.id.rv_theme_presets);
-        rvPresets.setLayoutManager(new LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false));
-        themeAdapter = new ThemePresetAdapter(
-                ThemeStudioManager.getPresets(),
-                active.id,
-                false,
-                preset -> {
-                    ThemeStudioManager.selectPreset(requireContext(), preset.id);
-                    tvActiveThemePreset.setText(preset.nameRes);
-                }
-        );
-        rvPresets.setAdapter(themeAdapter);
+        int mode = prefs.getThemeMode();
+        if (mode == 1) {
+            toggleGroup.check(R.id.btn_theme_light);
+        } else if (mode == 2) {
+            toggleGroup.check(R.id.btn_theme_dark);
+        } else {
+            toggleGroup.check(R.id.btn_theme_system);
+        }
 
-        view.findViewById(R.id.btn_open_theme_studio).setOnClickListener(v -> {
-            ThemeStudioBottomSheet sheet = new ThemeStudioBottomSheet();
-            sheet.show(getParentFragmentManager(), ThemeStudioBottomSheet.TAG);
-        });
-
-        ThemeStudioManager.observeThemeVersion().observe(getViewLifecycleOwner(), v -> {
-            if (!isAdded()) return;
-            ThemeStudioManager.ThemePreset cur = ThemeStudioManager.getActivePreset(requireContext());
-            tvActiveThemePreset.setText(cur.nameRes);
-            themeAdapter.setSelectedId(cur.id);
+        toggleGroup.addOnButtonCheckedListener((group, checkedId, isChecked) -> {
+            if (!isChecked) return;
+            int newMode = 0;
+            if (checkedId == R.id.btn_theme_light) {
+                newMode = 1;
+            } else if (checkedId == R.id.btn_theme_dark) {
+                newMode = 2;
+            } else if (checkedId == R.id.btn_theme_system) {
+                newMode = 0;
+            }
+            if (prefs.getThemeMode() != newMode) {
+                prefs.setThemeMode(newMode);
+                ThemeStudioManager.notifyThemeChanged();
+            }
         });
     }
 
