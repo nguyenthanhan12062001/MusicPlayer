@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="brand_zing_mp3">music</string>
+    <string name="brand_offline_tag">OFFLINE</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_library">Bibliothèque</string>
+    <string name="nav_discover">Découvrir</string>
+    <string name="nav_chart">#zingchart</string>
+    <string name="nav_radio">Radio</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="cd_download_screen">Ouvrir le téléchargement</string>
+    <string name="cd_search_screen">Rechercher des titres</string>
+    <string name="cd_back">Retour</string>
+    <string name="cd_play_pause">Lire ou mettre en pause</string>
+    <string name="cd_next">Titre suivant</string>
+    <string name="cd_previous">Titre précédent</string>
+    <string name="cd_shuffle">Lecture aléatoire</string>
+    <string name="cd_repeat">Répéter</string>
+    <string name="cd_favorite">Favori</string>
+    <string name="cd_more_options">Plus d\'options</string>
+    <string name="cd_album_cover">Pochette d\'album</string>
+    <string name="cd_avatar">Avatar utilisateur</string>
+    <string name="action_see_all">Tout voir</string>
+    <string name="action_play_all">Tout lire</string>
+    <string name="action_shuffle_play">Lecture aléatoire</string>
+    <string name="action_add_queue">Ajouter à la file</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_confirm">Confirmer</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_delete">Supprimer</string>
+
+    <!-- Discover -->
+    <string name="section_quick_listen">Écoute rapide</string>
+    <string name="section_for_you">Pour vous</string>
+    <string name="section_featured_playlists">Playlists en vedette</string>
+    <string name="section_new_albums">Nouveaux albums</string>
+    <string name="section_new_songs">Nouveaux titres</string>
+    <string name="section_featured_artists">Artistes populaires</string>
+    <string name="section_chart_preview">Classements</string>
+    <string name="section_mood_genre">Ambiances &amp; Genres</string>
+    <string name="banner_title">Espace Musique Hors Ligne</string>
+    <string name="banner_subtitle">Sélection haute qualité à écouter partout</string>
+
+    <!-- Library -->
+    <string name="library_title">Bibliothèque</string>
+    <string name="library_import_local">Importer depuis l\'appareil</string>
+    <string name="library_favorites">Titres favoris</string>
+    <string name="library_my_playlists">Mes playlists</string>
+    <string name="library_albums">Albums</string>
+    <string name="library_artists">Artistes</string>
+    <string name="library_downloaded">Musique téléchargée</string>
+    <string name="library_recent">Écoutés récemment</string>
+    <string name="library_create_playlist">Créer une playlist</string>
+    <string name="library_empty_downloaded">Aucun titre téléchargé. Appuyez sur l\'icône Téléchargement en haut.</string>
+
+    <!-- #zingchart -->
+    <string name="chart_title">#zingchart</string>
+    <string name="chart_subtitle">Classements musicaux hors ligne</string>
+    <string name="chart_tab_vn">Vietnam</string>
+    <string name="chart_tab_usuk">US-UK</string>
+    <string name="chart_tab_kpop">K-Pop</string>
+
+    <!-- Radio -->
+    <string name="radio_title">Radio</string>
+    <string name="radio_featured">Radios en vedette</string>
+    <string name="radio_mood">Radio par ambiance</string>
+    <string name="radio_genre">Radio par genre</string>
+    <string name="radio_artist">Radio par artiste</string>
+    <string name="radio_collections">Collections musicales</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_default_name">Mélomane</string>
+    <string name="profile_stats_title">Statistiques d\'écoute</string>
+    <string name="profile_theme_title">Thème Clair / Sombre</string>
+    <string name="profile_player_settings">Paramètres du lecteur</string>
+    <string name="profile_audio_settings">Paramètres audio</string>
+    <string name="profile_storage">Gestion du stockage</string>
+    <string name="profile_language">Langue</string>
+    <string name="dialog_select_language">Choisir la langue</string>
+    <string name="language_system">Système par défaut</string>
+    <string name="language_changed_toast">Langue mise à jour</string>
+    <string name="profile_about">À propos</string>
+
+    <!-- Search -->
+    <string name="search_hint">Rechercher titres, artistes, albums...</string>
+    <string name="search_history_title">Historique</string>
+    <string name="search_suggestions_title">Suggestions</string>
+    <string name="search_clear_history">Effacer l\'historique</string>
+    <string name="search_tab_all">Tout</string>
+    <string name="search_tab_songs">Titres</string>
+    <string name="search_tab_artists">Artistes</string>
+    <string name="search_tab_albums">Albums</string>
+    <string name="search_tab_playlists">Playlists</string>
+
+    <!-- Download -->
+    <string name="download_title">Téléchargement multi-sources</string>
+    <string name="download_youtube_section">Télécharger musique &amp; vidéo</string>
+    <string name="download_url_hint">Collez un lien YouTube, SoundCloud, TikTok ou Playlist...</string>
+    <string name="download_paste">Coller le lien</string>
+    <string name="download_analyze">Analyser</string>
+    <string name="download_start">Télécharger</string>
+    <string name="download_format_label">Format</string>
+    <string name="download_quality_label">Qualité</string>
+    <string name="download_manager_section">Gestionnaire de téléchargement</string>
+    <string name="download_tab_downloading">En cours</string>
+    <string name="download_tab_completed">Terminé</string>
+    <string name="download_tab_failed">Échec</string>
+
+    <!-- Player & Sheets -->
+    <string name="player_tab_cover">Lecture</string>
+    <string name="player_tab_lyrics">Paroles</string>
+    <string name="player_tab_queue">File d\'attente</string>
+    <string name="sheet_add_to_playlist">Ajouter à une playlist</string>
+    <string name="sheet_edit_song">Modifier les infos</string>
+    <string name="sheet_song_info">Détails</string>
+    <string name="sheet_sort_songs">Trier les titres</string>
+    <string name="sheet_delete_confirm">Confirmer la suppression</string>
+    <string name="sheet_add_favorite">Ajouter aux favoris</string>
+    <string name="sheet_remove_library">Supprimer de la bibliothèque</string>
+
+    <!-- Additional Localized UI Strings -->
+    <string name="quick_shuffle">Aléatoire</string>
+    <string name="quick_favorites">Favoris</string>
+    <string name="quick_downloaded">Téléchargés</string>
+    <string name="quick_lofi">Lo-Fi Concentration</string>
+    <string name="banner_badge_featured">À LA UNE</string>
+    <string name="library_all_songs">Tous les titres</string>
+    <string name="library_recent_and_downloaded">Récents &amp; Téléchargés</string>
+    <string name="count_songs_format">%d titres</string>
+    <string name="count_albums_format">%d albums</string>
+    <string name="count_artists_format">%d artistes</string>
+    <string name="detail_play">Lire</string>
+    <string name="detail_empty">Cette liste est vide</string>
+    <string name="search_empty">Aucun résultat trouvé</string>
+    <string name="player_playing_from">LECTURE DEPUIS</string>
+    <string name="player_no_lyrics">Aucune parole disponible.</string>
+    <string name="profile_tap_edit_name">Appuyez pour modifier le nom</string>
+    <string name="profile_stat_plays">Écoutes</string>
+    <string name="profile_stat_time">Temps d\'écoute</string>
+    <string name="profile_stat_downloaded">Hors ligne</string>
+    <string name="profile_my_playlists">Playlists personnelles</string>
+    <string name="profile_listen_history">Historique d\'écoute</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_system">Système</string>
+    <string name="chart_banner_vn">Top Vietnam</string>
+    <string name="chart_banner_usuk">Top US-UK</string>
+    <string name="chart_banner_kpop">Top K-Pop</string>
+    <string name="download_engine_subtitle">Compatible YouTube, SoundCloud, TikTok, Playlist • yt-dlp + FFmpeg</string>
+    <string name="download_empty_list">Aucune tâche de téléchargement ici</string>
+
+    <!-- Library & Formats -->
+    <string name="library_zero_songs">0 titres</string>
+    <string name="library_zero_albums">0 albums</string>
+    <string name="library_zero_artists">0 artistes</string>
+    <string name="library_source_title">Bibliothèque personnelle</string>
+    <string name="toast_importing_song">Importation du titre dans la bibliothèque...</string>
+    <string name="toast_imported_song">Titre ajouté à Musique téléchargée !</string>
+
+    <!-- Accessibility & Hints -->
+    <string name="cd_clear_search">Effacer la recherche</string>
+    <string name="cd_pause_resume">Pause ou Reprendre</string>
+    <string name="hint_playlist_name">Nom de la playlist</string>
+    <string name="hint_playlist_desc">Description (facultatif)</string>
+    <string name="hint_song_title">Titre du morceau</string>
+    <string name="hint_artist">Artiste</string>
+    <string name="hint_album">Album</string>
+    <string name="hint_genre">Genre</string>
+
+    <!-- Profile, Settings & Time -->
+    <string name="profile_calculating_storage">Calcul de l\'espace...</string>
+    <string name="profile_player_summary_format">Vitesse %1$sx • %2$s</string>
+    <string name="profile_crossfade_on">Fondu enchaîné activé</string>
+    <string name="profile_crossfade_off">Fondu enchaîné désactivé</string>
+    <string name="profile_audio_summary_format">Égaliseur : %1$s • Bass Boost : %2$s</string>
+    <string name="profile_state_on">Activé</string>
+    <string name="profile_state_off">Désactivé</string>
+    <string name="profile_storage_summary_format">%s utilisés hors ligne</string>
+    <string name="profile_edit_name_title">Modifier le nom</string>
+    <string name="player_speed_075">Vitesse 0.75x</string>
+    <string name="player_speed_100">Vitesse 1.0x (Normal)</string>
+    <string name="player_speed_125">Vitesse 1.25x</string>
+    <string name="player_speed_150">Vitesse 1.5x</string>
+    <string name="player_crossfade_enable">Activer le fondu enchaîné</string>
+    <string name="player_crossfade_disable">Désactiver le fondu enchaîné</string>
+    <string name="toast_player_settings_updated">Paramètres du lecteur mis à jour</string>
+    <string name="eq_balanced">Équilibré</string>
+    <string name="eq_pop">Pop</string>
+    <string name="eq_bass">Basses profondes</string>
+    <string name="eq_acoustic">Acoustique</string>
+    <string name="audio_bass_enable">Activer Bass Boost</string>
+    <string name="audio_bass_disable">Désactiver Bass Boost</string>
+    <string name="toast_audio_settings_applied">Effets audio appliqués</string>
+    <string name="storage_dialog_message_format">Espace total musique hors ligne et téléchargements : %s</string>
+    <string name="action_close">Fermer</string>
+    <string name="storage_clear_cache">Vider le cache</string>
+    <string name="toast_cache_cleared">Cache vidé</string>
+    <string name="about_app_message">Music — Lecteur audio hors ligne moderne\nVersion : 1.0\nArchitecture : Java + XML + Material Design 3 + Room + MediaPlayer</string>
+    <string name="time_sec_format">%d s</string>
+    <string name="time_min_format">%d min</string>
+    <string name="time_hour_min_format">%1$d h %2$d min</string>
+
+    <!-- Discover Moods & Chart Source -->
+    <string name="mood_relax_title">Détente</string>
+    <string name="mood_relax_sub">Musique douce</string>
+    <string name="mood_focus_title">Concentration</string>
+    <string name="mood_focus_sub">Lo-Fi &amp; Acoustique</string>
+    <string name="mood_energy_title">Énergie</string>
+    <string name="mood_energy_sub">V-Pop &amp; K-Pop</string>
+    <string name="mood_romance_title">Romance</string>
+    <string name="mood_romance_sub">Ballades sentimentales</string>
+    <string name="mood_night_title">Tard le soir</string>
+    <string name="mood_night_sub">Midnight Synth</string>
+    <string name="chart_source_vn">#zingchart Vietnam</string>
+
+    <!-- Detail & Search & Song Menu -->
+    <string name="detail_empty_play_toast">Aucun titre à lire</string>
+    <string name="detail_added_queue_toast">%d titres ajoutés à la file</string>
+    <string name="detail_album_creator">Albums</string>
+    <string name="detail_album_desc">Collection des albums hors ligne sur l\'appareil</string>
+    <string name="detail_artist_list_creator">Artistes</string>
+    <string name="detail_artist_list_desc">Choisissez un artiste pour écouter ses titres</string>
+    <string name="detail_playlist_creator_format">Créée par %s</string>
+    <string name="detail_artist_creator">Artiste</string>
+    <string name="detail_artist_desc_format">Sélection de titres de %s</string>
+    <string name="detail_fav_creator">Favoris</string>
+    <string name="detail_fav_desc">Titres que vous avez aimés</string>
+    <string name="detail_dl_creator">Sur cet appareil</string>
+    <string name="detail_dl_desc">Musique téléchargée ou importée localement</string>
+    <string name="detail_recent_creator">Historique</string>
+    <string name="detail_recent_desc">Titres écoutés récemment</string>
+    <string name="detail_keyword_creator">Thèmes &amp; Ambiances</string>
+    <string name="detail_keyword_desc_format">Musique sélectionnée pour \"%s\"</string>
+    <string name="detail_all_creator">Bibliothèque hors ligne</string>
+    <string name="detail_all_desc">Tous les titres de votre bibliothèque</string>
+    <string name="detail_meta_songs_duration_format">%1$d titres • %2$s</string>
+    <string name="detail_delete_playlist">Supprimer cette playlist</string>
+    <string name="toast_added_queue">Ajouté à la file d\'attente</string>
+    <string name="toast_deleted_playlist">Playlist supprimée</string>
+    <string name="sort_default">Par défaut</string>
+    <string name="sort_title_az">Titre (A-Z)</string>
+    <string name="sort_artist_az">Artiste (A-Z)</string>
+    <string name="sort_duration_desc">Durée (Plus long)</string>
+    <string name="search_source_title">Résultats de recherche</string>
+    <string name="sheet_remove_favorite">Retirer des favoris</string>
+    <string name="toast_added_favorite">Ajouté aux favoris</string>
+    <string name="toast_removed_favorite">Retiré des favoris</string>
+    <string name="toast_added_to_named_playlist">Ajouté à \"%s\"</string>
+    <string name="dialog_create_playlist_title">Nouvelle playlist</string>
+    <string name="action_create">Créer</string>
+    <string name="toast_enter_playlist_name">Veuillez entrer un nom de playlist</string>
+    <string name="toast_created_playlist">Playlist \"%s\" créée</string>
+    <string name="unknown_artist">Artiste inconnu</string>
+    <string name="toast_song_updated">Informations mises à jour</string>
+    <string name="single_album">Single</string>
+    <string name="status_downloaded_offline">Téléchargé hors ligne</string>
+    <string name="status_local_library">Bibliothèque locale</string>
+    <string name="song_info_format">Titre : %1$s\nArtiste : %2$s\nAlbum : %3$s\nGenre : %4$s\nAmbiance : %5$s\nDurée : %6$s\nÉcoutes : %7$d\nTaille : %8$s\nStatut : %9$s</string>
+    <string name="delete_song_confirm_format">Voulez-vous vraiment supprimer \"%s\" de la bibliothèque ?</string>
+    <string name="toast_song_deleted">Titre supprimé</string>
+
+    <!-- Download & Tasks -->
+    <string name="download_enter_url_toast">Veuillez saisir un lien audio ou vidéo</string>
+    <string name="download_clipboard_empty">Presse-papiers vide</string>
+    <string name="download_video_saved_toast">Vidéo enregistrée dans Movies/OfficeAI</string>
+    <string name="download_audio_saved_toast">Enregistré dans Bibliothèque &gt; Musique téléchargée</string>
+    <string name="download_duration_format">Durée : %s</string>
+    <string name="download_playlist_badge_format">%1$s • Playlist %2$d titres</string>
+    <string name="dl_meta_queued_format">%1$s %2$s • En attente</string>
+    <string name="dl_status_preparing">Préparation du téléchargement...</string>
+    <string name="dl_status_converting">Conversion FFmpeg...</string>
+    <string name="dl_playlist_item_prefix_format">Piste %1$d/%2$d • </string>
+    <string name="dl_eta_format"> • %ds restantes</string>
+    <string name="dl_status_downloading_format">Téléchargement (%1$d%%) • %2$s %3$s%4$s</string>
+    <string name="dl_status_paused_format">En pause (%d%%) — Toucher pour reprendre</string>
+    <string name="dl_status_completed_video">Terminé • Enregistré dans Movies/OfficeAI</string>
+    <string name="dl_status_completed_audio">Terminé • Enregistré dans Bibliothèque &amp; Music/OfficeAI</string>
+    <string name="dl_status_failed">Échec du téléchargement</string>
+    <string name="dl_vm_added_playlist">Playlist (%d éléments) ajoutée à la file</string>
+    <string name="dl_vm_added_queue">Ajouté à la file de téléchargement</string>
+    <string name="dl_vm_duplicate">Cette tâche existe déjà ou est terminée</string>
+
+    <!-- Device Scan & Download Folder -->
+    <string name="library_scan_device">Scanner l’appareil</string>
+    <string name="toast_scanning_device">Analyse des fichiers audio...</string>
+    <string name="toast_scan_found_format">%d titres ajoutés depuis l’appareil</string>
+    <string name="toast_scan_no_new">Aucun nouveau titre trouvé</string>
+    <string name="toast_scan_permission_denied">L’autorisation audio est requise pour scanner l’appareil</string>
+    <string name="download_folder_label_format">Dossier : %s</string>
+    <string name="download_folder_default">Music/Music (Par défaut)</string>
+    <string name="download_choose_folder">Choisir un dossier</string>
+    <string name="download_reset_folder">Par défaut</string>
+    <string name="toast_download_folder_updated">Dossier sélectionné : %s</string>
+    <string name="toast_download_folder_reset">Dossier par défaut restauré</string>
+    <string name="toast_storage_permission_legacy">Autorisation de stockage requise sur Android 8–9</string>
+
+    <!-- 3-Tab Liquid Nav, Artwork Editing & Theme Studio -->
+    <string name="nav_download">Télécharger</string>
+    <string name="sheet_change_cover">Changer la pochette</string>
+    <string name="sheet_reset_cover">Réinitialiser le vinyle par défaut</string>
+    <string name="toast_cover_updated">Pochette mise à jour</string>
+    <string name="toast_cover_update_failed">Impossible de charger l’image</string>
+    <string name="toast_cover_reset">Disque vinyle par défaut restauré</string>
+
+    <string name="theme_studio_title">Studio de thèmes</string>
+    <string name="theme_studio_subtitle">Glassmorphisme botanique sombre &amp; Dégradés linéaires</string>
+    <string name="theme_studio_customize">Personnaliser</string>
+    <string name="theme_studio_gradients_label">Dégradés linéaires populaires</string>
+    <string name="theme_studio_glass_intensity">Profondeur du verre végétal</string>
+    <string name="theme_studio_preview_sub">Verre dépoli botanique • Dégradé fluide</string>
+
+    <string name="theme_preset_botanical">Forêt</string>
+    <string name="theme_preset_aurora">Aurore</string>
+    <string name="theme_preset_orchid">Orchidée</string>
+    <string name="theme_preset_ocean">Abysse</string>
+    <string name="theme_preset_sunset">Crépuscule</string>
+    <string name="theme_preset_cyber">Cyber</string>
+    <string name="theme_preset_golden">Mousse d’or</string>
+    <string name="theme_preset_rose">Rose brume</string>
+</resources>

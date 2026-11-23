@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode: AMOLED black & Charcoal gray with high contrast white text -->
+    <color name="zing_purple">#5CC990</color>
+    <color name="zing_purple_dark">#38A36F</color>
+    <color name="zing_pink">#F08A9D</color>
+    <color name="zing_lavender_soft">#335CC990</color>
+    <color name="zing_gradient_start">#52B788</color>
+    <color name="zing_gradient_end">#A3C9A8</color>
+
+    <color name="bg_primary">#000000</color>
+    <color name="bg_surface">#141414</color>
+    <color name="bg_surface_elevated">#1E1E1E</color>
+    <color name="bg_surface_variant">#222222</color>
+    <color name="bg_nav_bar">#0A0A0A</color>
+    <color name="bg_mini_player">#181818</color>
+    <color name="bg_bottom_sheet">#1A1A1A</color>
+    <color name="bg_chip">#262626</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#CFD8DC</color>
+    <color name="text_tertiary">#90A4AE</color>
+    <color name="text_on_accent">#000000</color>
+
+    <color name="divider_subtle">#262626</color>
+    <color name="stroke_card">#333333</color>
+    <color name="icon_inactive">#90A4AE</color>
+    <color name="icon_active">#5CC990</color>
+
+    <!-- Semantic & Status Colors -->
+    <color name="rank_gold">#F5C451</color>
+    <color name="rank_silver">#7CC6FE</color>
+    <color name="rank_bronze">#F28499</color>
+    <color name="status_success">#4ADE80</color>
+    <color name="status_error">#FB7185</color>
+    <color name="status_warning">#FBBF24</color>
+</resources>

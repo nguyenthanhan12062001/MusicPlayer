@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="brand_zing_mp3">music</string>
+    <string name="brand_offline_tag">OFFLINE</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_library">ライブラリ</string>
+    <string name="nav_discover">見つける</string>
+    <string name="nav_chart">#zingchart</string>
+    <string name="nav_radio">ラジオ</string>
+    <string name="nav_profile">マイページ</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="cd_download_screen">ダウンロード画面を開く</string>
+    <string name="cd_search_screen">曲を検索</string>
+    <string name="cd_back">戻る</string>
+    <string name="cd_play_pause">再生または一時停止</string>
+    <string name="cd_next">次の曲</string>
+    <string name="cd_previous">前の曲</string>
+    <string name="cd_shuffle">シャッフル</string>
+    <string name="cd_repeat">リピート</string>
+    <string name="cd_favorite">お気に入り</string>
+    <string name="cd_more_options">その他のオプション</string>
+    <string name="cd_album_cover">アルバムアート</string>
+    <string name="cd_avatar">ユーザーアバター</string>
+    <string name="action_see_all">すべて見る</string>
+    <string name="action_play_all">すべて再生</string>
+    <string name="action_shuffle_play">シャッフル再生</string>
+    <string name="action_add_queue">キューに追加</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_confirm">確認</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">削除</string>
+
+    <!-- Discover -->
+    <string name="section_quick_listen">クイック再生</string>
+    <string name="section_for_you">あなたにおすすめ</string>
+    <string name="section_featured_playlists">注目のプレイリスト</string>
+    <string name="section_new_albums">ニューリリース</string>
+    <string name="section_new_songs">新着ソング</string>
+    <string name="section_featured_artists">人気アーティスト</string>
+    <string name="section_chart_preview">ランキング</string>
+    <string name="section_mood_genre">気分・ジャンル</string>
+    <string name="banner_title">オフライン音楽空間</string>
+    <string name="banner_subtitle">いつでも聴ける高音質プレイリスト</string>
+
+    <!-- Library -->
+    <string name="library_title">ライブラリ</string>
+    <string name="library_import_local">端末から曲を追加</string>
+    <string name="library_favorites">お気に入りの曲</string>
+    <string name="library_my_playlists">マイプレイリスト</string>
+    <string name="library_albums">アルバム</string>
+    <string name="library_artists">アーティスト</string>
+    <string name="library_downloaded">ダウンロード済み</string>
+    <string name="library_recent">最近の再生履歴</string>
+    <string name="library_create_playlist">プレイリスト作成</string>
+    <string name="library_empty_downloaded">ダウンロード済みの曲はありません。右上のダウンロードアイコンから追加できます。</string>
+
+    <!-- #zingchart -->
+    <string name="chart_title">#zingchart</string>
+    <string name="chart_subtitle">オフライン音楽チャート</string>
+    <string name="chart_tab_vn">ベトナム</string>
+    <string name="chart_tab_usuk">US-UK</string>
+    <string name="chart_tab_kpop">K-Pop</string>
+
+    <!-- Radio -->
+    <string name="radio_title">ラジオ</string>
+    <string name="radio_featured">おすすめラジオ</string>
+    <string name="radio_mood">気分別ラジオ</string>
+    <string name="radio_genre">ジャンル別ラジオ</string>
+    <string name="radio_artist">アーティスト別ラジオ</string>
+    <string name="radio_collections">音楽コレクション</string>
+
+    <!-- Profile -->
+    <string name="profile_title">マイページ</string>
+    <string name="profile_default_name">音楽ファン</string>
+    <string name="profile_stats_title">再生統計</string>
+    <string name="profile_theme_title">ライト / ダークテーマ</string>
+    <string name="profile_player_settings">プレーヤー設定</string>
+    <string name="profile_audio_settings">オーディオ設定</string>
+    <string name="profile_storage">ストレージ管理</string>
+    <string name="profile_language">言語</string>
+    <string name="dialog_select_language">言語を選択</string>
+    <string name="language_system">システム設定に従う</string>
+    <string name="language_changed_toast">アプリの言語を変更しました</string>
+    <string name="profile_about">アプリ情報</string>
+
+    <!-- Search -->
+    <string name="search_hint">曲、アーティスト、アルバムを検索...</string>
+    <string name="search_history_title">検索履歴</string>
+    <string name="search_suggestions_title">おすすめキーワード</string>
+    <string name="search_clear_history">履歴を削除</string>
+    <string name="search_tab_all">すべて</string>
+    <string name="search_tab_songs">曲</string>
+    <string name="search_tab_artists">アーティスト</string>
+    <string name="search_tab_albums">アルバム</string>
+    <string name="search_tab_playlists">プレイリスト</string>
+
+    <!-- Download -->
+    <string name="download_title">マルチソースダウンロード</string>
+    <string name="download_youtube_section">音楽・動画をダウンロード</string>
+    <string name="download_url_hint">YouTube、SoundCloud、TikTok、プレイリストのURLを入力...</string>
+    <string name="download_paste">リンクを貼付</string>
+    <string name="download_analyze">リンクを解析</string>
+    <string name="download_start">今すぐダウンロード</string>
+    <string name="download_format_label">フォーマット</string>
+    <string name="download_quality_label">品質</string>
+    <string name="download_manager_section">ダウンロード管理</string>
+    <string name="download_tab_downloading">ダウンロード中</string>
+    <string name="download_tab_completed">完了</string>
+    <string name="download_tab_failed">失敗</string>
+
+    <!-- Player & Sheets -->
+    <string name="player_tab_cover">再生中</string>
+    <string name="player_tab_lyrics">歌詞</string>
+    <string name="player_tab_queue">再生キュー</string>
+    <string name="sheet_add_to_playlist">プレイリストに追加</string>
+    <string name="sheet_edit_song">曲情報を編集</string>
+    <string name="sheet_song_info">詳細情報</string>
+    <string name="sheet_sort_songs">曲を並び替え</string>
+    <string name="sheet_delete_confirm">削除の確認</string>
+    <string name="sheet_add_favorite">お気に入りに追加</string>
+    <string name="sheet_remove_library">ライブラリから削除</string>
+
+    <!-- Additional Localized UI Strings -->
+    <string name="quick_shuffle">シャッフル再生</string>
+    <string name="quick_favorites">お気に入り</string>
+    <string name="quick_downloaded">ダウンロード済み</string>
+    <string name="quick_lofi">集中 Lo-Fi</string>
+    <string name="banner_badge_featured">本日のおすすめ</string>
+    <string name="library_all_songs">すべての曲</string>
+    <string name="library_recent_and_downloaded">最近の再生とダウンロード</string>
+    <string name="count_songs_format">%d曲</string>
+    <string name="count_albums_format">%dアルバム</string>
+    <string name="count_artists_format">%dアーティスト</string>
+    <string name="detail_play">再生</string>
+    <string name="detail_empty">リストは空です</string>
+    <string name="search_empty">一致する結果が見つかりません</string>
+    <string name="player_playing_from">再生元</string>
+    <string name="player_no_lyrics">歌詞はありません。</string>
+    <string name="profile_tap_edit_name">タップして表示名を変更</string>
+    <string name="profile_stat_plays">再生回数</string>
+    <string name="profile_stat_time">再生時間</string>
+    <string name="profile_stat_downloaded">オフライン保存</string>
+    <string name="profile_my_playlists">マイプレイリスト</string>
+    <string name="profile_listen_history">再生履歴</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="theme_system">システム</string>
+    <string name="chart_banner_vn">ベトナムチャート</string>
+    <string name="chart_banner_usuk">US-UKチャート</string>
+    <string name="chart_banner_kpop">K-Popチャート</string>
+    <string name="download_engine_subtitle">YouTube・SoundCloud・TikTok・プレイリスト対応 • yt-dlp + FFmpeg</string>
+    <string name="download_empty_list">このタブにダウンロードタスクはありません</string>
+
+    <!-- Library & Formats -->
+    <string name="library_zero_songs">0曲</string>
+    <string name="library_zero_albums">0アルバム</string>
+    <string name="library_zero_artists">0アーティスト</string>
+    <string name="library_source_title">マイライブラリ</string>
+    <string name="toast_importing_song">ライブラリに曲を取り込んでいます...</string>
+    <string name="toast_imported_song">ダウンロード済みに曲を追加しました</string>
+
+    <!-- Accessibility & Hints -->
+    <string name="cd_clear_search">検索ワードを削除</string>
+    <string name="cd_pause_resume">一時停止または再開</string>
+    <string name="hint_playlist_name">プレイリスト名</string>
+    <string name="hint_playlist_desc">説明（任意）</string>
+    <string name="hint_song_title">曲名</string>
+    <string name="hint_artist">アーティスト</string>
+    <string name="hint_album">アルバム</string>
+    <string name="hint_genre">ジャンル</string>
+
+    <!-- Profile, Settings & Time -->
+    <string name="profile_calculating_storage">容量を計算中...</string>
+    <string name="profile_player_summary_format">再生速度 %1$sx • %2$s</string>
+    <string name="profile_crossfade_on">クロスフェード ON</string>
+    <string name="profile_crossfade_off">クロスフェード OFF</string>
+    <string name="profile_audio_summary_format">イコライザー: %1$s • Bass Boost: %2$s</string>
+    <string name="profile_state_on">ON</string>
+    <string name="profile_state_off">OFF</string>
+    <string name="profile_storage_summary_format">オフライン容量 %s を使用中</string>
+    <string name="profile_edit_name_title">表示名を変更</string>
+    <string name="player_speed_075">速度 0.75x</string>
+    <string name="player_speed_100">速度 1.0x（標準）</string>
+    <string name="player_speed_125">速度 1.25x</string>
+    <string name="player_speed_150">速度 1.5x</string>
+    <string name="player_crossfade_enable">クロスフェードを有効にする</string>
+    <string name="player_crossfade_disable">クロスフェードを無効にする</string>
+    <string name="toast_player_settings_updated">プレーヤー設定を更新しました</string>
+    <string name="eq_balanced">バランス</string>
+    <string name="eq_pop">Pop</string>
+    <string name="eq_bass">重低音</string>
+    <string name="eq_acoustic">アコースティック</string>
+    <string name="audio_bass_enable">Bass Boost を有効にする</string>
+    <string name="audio_bass_disable">Bass Boost を無効にする</string>
+    <string name="toast_audio_settings_applied">オーディオ効果を適用しました</string>
+    <string name="storage_dialog_message_format">オフライン音楽とダウンロードの合計容量: %s</string>
+    <string name="action_close">閉じる</string>
+    <string name="storage_clear_cache">キャッシュを削除</string>
+    <string name="toast_cache_cleared">キャッシュを削除しました</string>
+    <string name="about_app_message">Music — モダン オフライン音楽プレーヤー\nバージョン: 1.0\n構成: Java + XML + Material Design 3 + Room + MediaPlayer</string>
+    <string name="time_sec_format">%d秒</string>
+    <string name="time_min_format">%d分</string>
+    <string name="time_hour_min_format">%1$d時間%2$d分</string>
+
+    <!-- Discover Moods & Chart Source -->
+    <string name="mood_relax_title">リラックス</string>
+    <string name="mood_relax_sub">穏やかなサウンド</string>
+    <string name="mood_focus_title">集中</string>
+    <string name="mood_focus_sub">Lo-Fi &amp; アコースティック</string>
+    <string name="mood_energy_title">エナジー</string>
+    <string name="mood_energy_sub">V-Pop &amp; K-Pop</string>
+    <string name="mood_romance_title">ロマンス</string>
+    <string name="mood_romance_sub">バラード名曲集</string>
+    <string name="mood_night_title">深夜</string>
+    <string name="mood_night_sub">Midnight Synth</string>
+    <string name="chart_source_vn">#zingchart ベトナム</string>
+
+    <!-- Detail & Search & Song Menu -->
+    <string name="detail_empty_play_toast">再生できる曲がありません</string>
+    <string name="detail_added_queue_toast">%d曲をキューに追加しました</string>
+    <string name="detail_album_creator">アルバムライブラリ</string>
+    <string name="detail_album_desc">端末内のオフラインアルバム一覧</string>
+    <string name="detail_artist_list_creator">ライブラリのアーティスト</string>
+    <string name="detail_artist_list_desc">アーティストを選んで全曲を再生</string>
+    <string name="detail_playlist_creator_format">作成者: %s</string>
+    <string name="detail_artist_creator">アーティスト</string>
+    <string name="detail_artist_desc_format">%s の楽曲セレクション</string>
+    <string name="detail_fav_creator">お気に入りリスト</string>
+    <string name="detail_fav_desc">お気に入りに追加した曲</string>
+    <string name="detail_dl_creator">端末に保存済み</string>
+    <string name="detail_dl_desc">ダウンロードまたは端末から取り込んだ音楽</string>
+    <string name="detail_recent_creator">再生履歴</string>
+    <string name="detail_recent_desc">最近聴いた曲</string>
+    <string name="detail_keyword_creator">テーマ・気分</string>
+    <string name="detail_keyword_desc_format">キーワード「%s」の厳選音楽</string>
+    <string name="detail_all_creator">オフライン音楽コレクション</string>
+    <string name="detail_all_desc">ライブラリ内のすべての曲</string>
+    <string name="detail_meta_songs_duration_format">%1$d曲 • %2$s</string>
+    <string name="detail_delete_playlist">このプレイリストを削除</string>
+    <string name="toast_added_queue">キューに追加しました</string>
+    <string name="toast_deleted_playlist">プレイリストを削除しました</string>
+    <string name="sort_default">デフォルト</string>
+    <string name="sort_title_az">曲名 (A-Z)</string>
+    <string name="sort_artist_az">アーティスト (A-Z)</string>
+    <string name="sort_duration_desc">長さ順（長い順）</string>
+    <string name="search_source_title">検索結果</string>
+    <string name="sheet_remove_favorite">お気に入りから削除</string>
+    <string name="toast_added_favorite">お気に入りに追加しました</string>
+    <string name="toast_removed_favorite">お気に入りから削除しました</string>
+    <string name="toast_added_to_named_playlist">「%s」に追加しました</string>
+    <string name="dialog_create_playlist_title">新規プレイリスト</string>
+    <string name="action_create">作成</string>
+    <string name="toast_enter_playlist_name">プレイリスト名を入力してください</string>
+    <string name="toast_created_playlist">プレイリスト「%s」を作成しました</string>
+    <string name="unknown_artist">不明なアーティスト</string>
+    <string name="toast_song_updated">曲情報を更新しました</string>
+    <string name="single_album">シングル</string>
+    <string name="status_downloaded_offline">オフライン保存済み</string>
+    <string name="status_local_library">ローカルライブラリ</string>
+    <string name="song_info_format">曲名: %1$s\nアーティスト: %2$s\nアルバム: %3$s\nジャンル: %4$s\nムード: %5$s\n再生時間: %6$s\n再生回数: %7$d\nファイルサイズ: %8$s\nステータス: %9$s</string>
+    <string name="delete_song_confirm_format">「%s」をライブラリから削除しますか？</string>
+    <string name="toast_song_deleted">曲を削除しました</string>
+
+    <!-- Download & Tasks -->
+    <string name="download_enter_url_toast">音楽または動画のリンクを入力してください</string>
+    <string name="download_clipboard_empty">クリップボードが空です</string>
+    <string name="download_video_saved_toast">動画を Movies/OfficeAI に保存しました</string>
+    <string name="download_audio_saved_toast">ライブラリ &gt; ダウンロード済み に保存しました</string>
+    <string name="download_duration_format">長さ: %s</string>
+    <string name="download_playlist_badge_format">%1$s • プレイリスト %2$d曲</string>
+    <string name="dl_meta_queued_format">%1$s %2$s • 待機中</string>
+    <string name="dl_status_preparing">ダウンロードを準備中...</string>
+    <string name="dl_status_converting">FFmpeg で変換中...</string>
+    <string name="dl_playlist_item_prefix_format">%1$d/%2$d 曲目 • </string>
+    <string name="dl_eta_format"> • 残り %d秒</string>
+    <string name="dl_status_downloading_format">ダウンロード中 (%1$d%%) • %2$s %3$s%4$s</string>
+    <string name="dl_status_paused_format">一時停止 (%d%%) — タップして再開</string>
+    <string name="dl_status_completed_video">完了 • Movies/OfficeAI に保存</string>
+    <string name="dl_status_completed_audio">完了 • ライブラリと Music/OfficeAI に保存</string>
+    <string name="dl_status_failed">ダウンロード失敗</string>
+    <string name="dl_vm_added_playlist">プレイリスト（%d件）をキューに追加しました</string>
+    <string name="dl_vm_added_queue">ダウンロードキューに追加しました</string>
+    <string name="dl_vm_duplicate">このタスクは既に存在するか完了しています</string>
+
+    <!-- Device Scan & Download Folder -->
+    <string name="library_scan_device">端末内の音楽をスキャン</string>
+    <string name="toast_scanning_device">端末内の音楽をスキャンしています...</string>
+    <string name="toast_scan_found_format">端末から %d 曲を追加しました</string>
+    <string name="toast_scan_no_new">新しい曲は見つかりませんでした</string>
+    <string name="toast_scan_permission_denied">端末の音楽をスキャンするには音声の権限が必要です</string>
+    <string name="download_folder_label_format">保存先: %s</string>
+    <string name="download_folder_default">Music/Music (デフォルト)</string>
+    <string name="download_choose_folder">フォルダ選択</string>
+    <string name="download_reset_folder">デフォルト</string>
+    <string name="toast_download_folder_updated">保存先を設定しました: %s</string>
+    <string name="toast_download_folder_reset">デフォルトの保存先に戻しました</string>
+    <string name="toast_storage_permission_legacy">Android 8–9 で保存するにはストレージ権限が必要です</string>
+
+    <!-- 3-Tab Liquid Nav, Artwork Editing & Theme Studio -->
+    <string name="nav_download">ダウンロード</string>
+    <string name="sheet_change_cover">アートワークを変更</string>
+    <string name="sheet_reset_cover">デフォルトのレコードに戻す</string>
+    <string name="toast_cover_updated">アートワークを更新しました</string>
+    <string name="toast_cover_update_failed">画像を読み込めませんでした</string>
+    <string name="toast_cover_reset">デフォルトのレコードに戻しました</string>
+
+    <string name="theme_studio_title">テーマスタジオ</string>
+    <string name="theme_studio_subtitle">ダークボタニカル・グラス＆リニアグラデーション</string>
+    <string name="theme_studio_customize">カスタマイズ</string>
+    <string name="theme_studio_gradients_label">人気のリニアグラデーション</string>
+    <string name="theme_studio_glass_intensity">ボタニカルガラスの透明度</string>
+    <string name="theme_studio_preview_sub">すりガラス風デザイン • なめらかなグラデーション</string>
+
+    <string name="theme_preset_botanical">深森</string>
+    <string name="theme_preset_aurora">オーロラ</string>
+    <string name="theme_preset_orchid">夜蘭</string>
+    <string name="theme_preset_ocean">深海</string>
+    <string name="theme_preset_sunset">夕暮れ</string>
+    <string name="theme_preset_cyber">サイバー</string>
+    <string name="theme_preset_golden">黄金苔</string>
+    <string name="theme_preset_rose">霧薔薇</string>
+</resources>

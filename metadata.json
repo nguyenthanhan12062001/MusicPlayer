@@ -1,0 +1,6 @@
+{
+  "name": "Music",
+  "description": "Ứng dụng nghe nhạc offline phong cách Zing MP3 với trình phát nhạc đầy đủ, quản lý thư viện cá nhân và tải nhạc đa nguồn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

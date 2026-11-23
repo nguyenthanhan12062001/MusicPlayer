@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mini_player_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_glass_mini_player"
+    android:clickable="true"
+    android:clipToOutline="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/mini_cover"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:contentDescription="@string/cd_album_cover"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_vinyl_disc"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.OfficeMusic.Circle" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mini_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/plus_jakarta_sans"
+                android:maxLines="1"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mini_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/mini_btn_favorite"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_favorite"
+            android:src="@drawable/ic_heart_outline"
+            app:tint="@color/icon_inactive" />
+
+        <ImageButton
+            android:id="@+id/mini_btn_play_pause"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_play_pause"
+            android:src="@drawable/ic_play"
+            app:tint="@color/text_primary" />
+
+        <ImageButton
+            android:id="@+id/mini_btn_next"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_next"
+            android:src="@drawable/ic_next"
+            app:tint="@color/text_primary" />
+    </LinearLayout>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/mini_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="14dp"
+        android:indeterminate="false"
+        android:max="1000"
+        android:progress="0"
+        app:indicatorColor="@color/zing_purple"
+        app:trackColor="@color/divider_subtle"
+        app:trackCornerRadius="2dp"
+        app:trackThickness="2dp" />
+</LinearLayout>

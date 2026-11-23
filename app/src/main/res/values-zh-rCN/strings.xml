@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="brand_zing_mp3">music</string>
+    <string name="brand_offline_tag">OFFLINE</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_library">音乐库</string>
+    <string name="nav_discover">发现</string>
+    <string name="nav_chart">#zingchart</string>
+    <string name="nav_radio">电台</string>
+    <string name="nav_profile">我的</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="cd_download_screen">打开下载页面</string>
+    <string name="cd_search_screen">搜索歌曲</string>
+    <string name="cd_back">返回</string>
+    <string name="cd_play_pause">播放或暂停</string>
+    <string name="cd_next">下一首</string>
+    <string name="cd_previous">上一首</string>
+    <string name="cd_shuffle">随机播放</string>
+    <string name="cd_repeat">循环播放</string>
+    <string name="cd_favorite">喜欢</string>
+    <string name="cd_more_options">更多选项</string>
+    <string name="cd_album_cover">专辑封面</string>
+    <string name="cd_avatar">用户头像</string>
+    <string name="action_see_all">查看全部</string>
+    <string name="action_play_all">全部播放</string>
+    <string name="action_shuffle_play">随机播放</string>
+    <string name="action_add_queue">添加到队列</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确认</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">删除</string>
+
+    <!-- Discover -->
+    <string name="section_quick_listen">快速收听</string>
+    <string name="section_for_you">为你推荐</string>
+    <string name="section_featured_playlists">精选歌单</string>
+    <string name="section_new_albums">最新专辑</string>
+    <string name="section_new_songs">新歌速递</string>
+    <string name="section_featured_artists">热门歌手</string>
+    <string name="section_chart_preview">排行榜</string>
+    <string name="section_mood_genre">心情与流派</string>
+    <string name="banner_title">离线音乐空间</string>
+    <string name="banner_subtitle">随时随地畅享高品质离线音乐</string>
+
+    <!-- Library -->
+    <string name="library_title">音乐库</string>
+    <string name="library_import_local">从设备导入音乐</string>
+    <string name="library_favorites">我喜欢的歌曲</string>
+    <string name="library_my_playlists">我的歌单</string>
+    <string name="library_albums">专辑</string>
+    <string name="library_artists">歌手</string>
+    <string name="library_downloaded">已下载音乐</string>
+    <string name="library_recent">最近播放</string>
+    <string name="library_create_playlist">新建歌单</string>
+    <string name="library_empty_downloaded">暂无已下载音乐。点击右上角下载图标即可获取音乐。</string>
+
+    <!-- #zingchart -->
+    <string name="chart_title">#zingchart</string>
+    <string name="chart_subtitle">离线音乐排行榜</string>
+    <string name="chart_tab_vn">越南</string>
+    <string name="chart_tab_usuk">欧美</string>
+    <string name="chart_tab_kpop">K-Pop</string>
+
+    <!-- Radio -->
+    <string name="radio_title">电台</string>
+    <string name="radio_featured">推荐电台</string>
+    <string name="radio_mood">心情电台</string>
+    <string name="radio_genre">流派电台</string>
+    <string name="radio_artist">歌手电台</string>
+    <string name="radio_collections">音乐合集</string>
+
+    <!-- Profile -->
+    <string name="profile_title">我的</string>
+    <string name="profile_default_name">音乐爱好者</string>
+    <string name="profile_stats_title">听歌统计</string>
+    <string name="profile_theme_title">浅色 / 深色主题</string>
+    <string name="profile_player_settings">播放器设置</string>
+    <string name="profile_audio_settings">音效设置</string>
+    <string name="profile_storage">存储管理</string>
+    <string name="profile_language">语言</string>
+    <string name="dialog_select_language">选择语言</string>
+    <string name="language_system">跟随系统</string>
+    <string name="language_changed_toast">应用语言已更新</string>
+    <string name="profile_about">关于应用</string>
+
+    <!-- Search -->
+    <string name="search_hint">搜索歌曲、歌手、专辑...</string>
+    <string name="search_history_title">搜索历史</string>
+    <string name="search_suggestions_title">为你推荐</string>
+    <string name="search_clear_history">清空历史</string>
+    <string name="search_tab_all">全部</string>
+    <string name="search_tab_songs">歌曲</string>
+    <string name="search_tab_artists">歌手</string>
+    <string name="search_tab_albums">专辑</string>
+    <string name="search_tab_playlists">歌单</string>
+
+    <!-- Download -->
+    <string name="download_title">多源下载</string>
+    <string name="download_youtube_section">下载多源音乐与视频</string>
+    <string name="download_url_hint">粘贴 YouTube、SoundCloud、TikTok 或播放列表链接...</string>
+    <string name="download_paste">粘贴链接</string>
+    <string name="download_analyze">解析链接</string>
+    <string name="download_start">立即下载</string>
+    <string name="download_format_label">格式</string>
+    <string name="download_quality_label">音质 / 画质</string>
+    <string name="download_manager_section">下载管理</string>
+    <string name="download_tab_downloading">下载中</string>
+    <string name="download_tab_completed">已完成</string>
+    <string name="download_tab_failed">失败</string>
+
+    <!-- Player & Sheets -->
+    <string name="player_tab_cover">正在播放</string>
+    <string name="player_tab_lyrics">歌词</string>
+    <string name="player_tab_queue">播放队列</string>
+    <string name="sheet_add_to_playlist">添加到歌单</string>
+    <string name="sheet_edit_song">编辑歌曲信息</string>
+    <string name="sheet_song_info">详细信息</string>
+    <string name="sheet_sort_songs">排序歌曲</string>
+    <string name="sheet_delete_confirm">确认删除</string>
+    <string name="sheet_add_favorite">添加到我喜欢</string>
+    <string name="sheet_remove_library">从音乐库移除</string>
+
+    <!-- Additional Localized UI Strings -->
+    <string name="quick_shuffle">随机播放</string>
+    <string name="quick_favorites">我喜欢</string>
+    <string name="quick_downloaded">已下载</string>
+    <string name="quick_lofi">专注 Lo-Fi</string>
+    <string name="banner_badge_featured">今日精选</string>
+    <string name="library_all_songs">全部歌曲</string>
+    <string name="library_recent_and_downloaded">最近播放与已下载</string>
+    <string name="count_songs_format">%d 首歌曲</string>
+    <string name="count_albums_format">%d 张专辑</string>
+    <string name="count_artists_format">%d 位歌手</string>
+    <string name="detail_play">播放</string>
+    <string name="detail_empty">列表为空</string>
+    <string name="search_empty">未找到匹配结果</string>
+    <string name="player_playing_from">正在播放自</string>
+    <string name="player_no_lyrics">暂无歌词。</string>
+    <string name="profile_tap_edit_name">点击修改显示名称</string>
+    <string name="profile_stat_plays">播放次数</string>
+    <string name="profile_stat_time">收听时长</string>
+    <string name="profile_stat_downloaded">离线已下载</string>
+    <string name="profile_my_playlists">个人歌单</string>
+    <string name="profile_listen_history">播放历史</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_system">系统</string>
+    <string name="chart_banner_vn">越南排行榜</string>
+    <string name="chart_banner_usuk">欧美排行榜</string>
+    <string name="chart_banner_kpop">K-Pop 排行榜</string>
+    <string name="download_engine_subtitle">支持 YouTube、SoundCloud、TikTok、播放列表 • yt-dlp + FFmpeg</string>
+    <string name="download_empty_list">当前标签页暂无下载任务</string>
+
+    <!-- Library & Formats -->
+    <string name="library_zero_songs">0 首歌曲</string>
+    <string name="library_zero_albums">0 张专辑</string>
+    <string name="library_zero_artists">0 位歌手</string>
+    <string name="library_source_title">个人音乐库</string>
+    <string name="toast_importing_song">正在导入歌曲到音乐库...</string>
+    <string name="toast_imported_song">已将歌曲添加到已下载音乐！</string>
+
+    <!-- Accessibility & Hints -->
+    <string name="cd_clear_search">清除关键词</string>
+    <string name="cd_pause_resume">暂停或继续</string>
+    <string name="hint_playlist_name">歌单名称</string>
+    <string name="hint_playlist_desc">简介（可选）</string>
+    <string name="hint_song_title">歌曲名称</string>
+    <string name="hint_artist">歌手</string>
+    <string name="hint_album">专辑</string>
+    <string name="hint_genre">流派</string>
+
+    <!-- Profile, Settings & Time -->
+    <string name="profile_calculating_storage">正在计算空间...</string>
+    <string name="profile_player_summary_format">倍速 %1$sx • %2$s</string>
+    <string name="profile_crossfade_on">淡入淡出开启</string>
+    <string name="profile_crossfade_off">淡入淡出关闭</string>
+    <string name="profile_audio_summary_format">均衡器: %1$s • 低音增强: %2$s</string>
+    <string name="profile_state_on">开启</string>
+    <string name="profile_state_off">关闭</string>
+    <string name="profile_storage_summary_format">已使用 %s 离线存储</string>
+    <string name="profile_edit_name_title">修改显示名称</string>
+    <string name="player_speed_075">倍速 0.75x</string>
+    <string name="player_speed_100">倍速 1.0x（标准）</string>
+    <string name="player_speed_125">倍速 1.25x</string>
+    <string name="player_speed_150">倍速 1.5x</string>
+    <string name="player_crossfade_enable">开启平滑切歌 (Crossfade)</string>
+    <string name="player_crossfade_disable">关闭平滑切歌 (Crossfade)</string>
+    <string name="toast_player_settings_updated">播放器设置已更新</string>
+    <string name="eq_balanced">均衡</string>
+    <string name="eq_pop">流行</string>
+    <string name="eq_bass">重低音</string>
+    <string name="eq_acoustic">原声</string>
+    <string name="audio_bass_enable">开启低音增强</string>
+    <string name="audio_bass_disable">关闭低音增强</string>
+    <string name="toast_audio_settings_applied">音效已应用</string>
+    <string name="storage_dialog_message_format">离线音乐与下载数据总占用: %s</string>
+    <string name="action_close">关闭</string>
+    <string name="storage_clear_cache">清理缓存</string>
+    <string name="toast_cache_cleared">缓存已清理</string>
+    <string name="about_app_message">Music — 现代离线音乐播放器\n版本: 1.0\n架构: Java + XML + Material Design 3 + Room + MediaPlayer</string>
+    <string name="time_sec_format">%d 秒</string>
+    <string name="time_min_format">%d 分钟</string>
+    <string name="time_hour_min_format">%1$d 小时 %2$d 分钟</string>
+
+    <!-- Discover Moods & Chart Source -->
+    <string name="mood_relax_title">放松</string>
+    <string name="mood_relax_sub">舒缓轻音乐</string>
+    <string name="mood_focus_title">专注</string>
+    <string name="mood_focus_sub">Lo-Fi 与原声</string>
+    <string name="mood_energy_title">活力</string>
+    <string name="mood_energy_sub">V-Pop 与 K-Pop</string>
+    <string name="mood_romance_title">浪漫</string>
+    <string name="mood_romance_sub">深情抒情曲</string>
+    <string name="mood_night_title">深夜</string>
+    <string name="mood_night_sub">Midnight Synth</string>
+    <string name="chart_source_vn">#zingchart 越南</string>
+
+    <!-- Detail & Search & Song Menu -->
+    <string name="detail_empty_play_toast">暂无可播放歌曲</string>
+    <string name="detail_added_queue_toast">已将 %d 首歌曲添加到队列</string>
+    <string name="detail_album_creator">专辑库</string>
+    <string name="detail_album_desc">设备上的离线专辑合集</string>
+    <string name="detail_artist_list_creator">音乐库歌手</string>
+    <string name="detail_artist_list_desc">选择歌手收听全部作品</string>
+    <string name="detail_playlist_creator_format">创建者: %s</string>
+    <string name="detail_artist_creator">歌手</string>
+    <string name="detail_artist_desc_format">%s 的精选作品</string>
+    <string name="detail_fav_creator">我喜欢的列表</string>
+    <string name="detail_fav_desc">你收藏的喜爱歌曲</string>
+    <string name="detail_dl_creator">已保存在设备</string>
+    <string name="detail_dl_desc">下载或从设备存储导入的音乐</string>
+    <string name="detail_recent_creator">播放历史</string>
+    <string name="detail_recent_desc">你最近收听的歌曲</string>
+    <string name="detail_keyword_creator">主题与心情</string>
+    <string name="detail_keyword_desc_format">匹配关键词“%s”的精选音乐</string>
+    <string name="detail_all_creator">离线音乐库</string>
+    <string name="detail_all_desc">音乐库中的全部歌曲</string>
+    <string name="detail_meta_songs_duration_format">%1$d 首歌曲 • %2$s</string>
+    <string name="detail_delete_playlist">删除此歌单</string>
+    <string name="toast_added_queue">已添加到播放队列</string>
+    <string name="toast_deleted_playlist">歌单已删除</string>
+    <string name="sort_default">默认</string>
+    <string name="sort_title_az">歌名 (A-Z)</string>
+    <string name="sort_artist_az">歌手 (A-Z)</string>
+    <string name="sort_duration_desc">时长（最长优先）</string>
+    <string name="search_source_title">搜索结果</string>
+    <string name="sheet_remove_favorite">取消喜欢</string>
+    <string name="toast_added_favorite">已添加到我喜欢</string>
+    <string name="toast_removed_favorite">已取消喜欢</string>
+    <string name="toast_added_to_named_playlist">已添加到“%s”</string>
+    <string name="dialog_create_playlist_title">新建歌单</string>
+    <string name="action_create">创建</string>
+    <string name="toast_enter_playlist_name">请输入歌单名称</string>
+    <string name="toast_created_playlist">已创建歌单“%s”</string>
+    <string name="unknown_artist">未知歌手</string>
+    <string name="toast_song_updated">歌曲信息已更新</string>
+    <string name="single_album">单曲</string>
+    <string name="status_downloaded_offline">已离线下载</string>
+    <string name="status_local_library">本地曲库</string>
+    <string name="song_info_format">歌名: %1$s\n歌手: %2$s\n专辑: %3$s\n流派: %4$s\n心情: %5$s\n时长: %6$s\n播放次数: %7$d\n文件大小: %8$s\n状态: %9$s</string>
+    <string name="delete_song_confirm_format">确定要从音乐库删除“%s”吗？</string>
+    <string name="toast_song_deleted">歌曲已删除</string>
+
+    <!-- Download & Tasks -->
+    <string name="download_enter_url_toast">请输入音乐或视频链接</string>
+    <string name="download_clipboard_empty">剪贴板为空</string>
+    <string name="download_video_saved_toast">视频已保存至 Movies/OfficeAI</string>
+    <string name="download_audio_saved_toast">已保存至 音乐库 &gt; 已下载音乐</string>
+    <string name="download_duration_format">时长: %s</string>
+    <string name="download_playlist_badge_format">%1$s • 播放列表 %2$d 首</string>
+    <string name="dl_meta_queued_format">%1$s %2$s • 排队等待中</string>
+    <string name="dl_status_preparing">正在准备下载...</string>
+    <string name="dl_status_converting">正在使用 FFmpeg 转换...</string>
+    <string name="dl_playlist_item_prefix_format">第 %1$d/%2$d 首 • </string>
+    <string name="dl_eta_format"> • 剩余 %d秒</string>
+    <string name="dl_status_downloading_format">正在下载 (%1$d%%) • %2$s %3$s%4$s</string>
+    <string name="dl_status_paused_format">已暂停 (%d%%) — 点击继续</string>
+    <string name="dl_status_completed_video">已完成 • 已保存至 Movies/OfficeAI</string>
+    <string name="dl_status_completed_audio">已完成 • 已保存至音乐库和 Music/OfficeAI</string>
+    <string name="dl_status_failed">下载失败</string>
+    <string name="dl_vm_added_playlist">已将播放列表（%d项）加入下载队列</string>
+    <string name="dl_vm_added_queue">已加入下载队列</string>
+    <string name="dl_vm_duplicate">该任务已在列表中或已完成</string>
+
+    <!-- Device Scan & Download Folder -->
+    <string name="library_scan_device">扫描本机音乐</string>
+    <string name="toast_scanning_device">正在扫描本机音乐...</string>
+    <string name="toast_scan_found_format">已从设备添加 %d 首歌曲</string>
+    <string name="toast_scan_no_new">未发现新的本机音乐</string>
+    <string name="toast_scan_permission_denied">需要音频权限以扫描本机音乐</string>
+    <string name="download_folder_label_format">保存目录: %s</string>
+    <string name="download_folder_default">Music/Music (默认)</string>
+    <string name="download_choose_folder">选择目录</string>
+    <string name="download_reset_folder">恢复默认</string>
+    <string name="toast_download_folder_updated">已选择保存目录: %s</string>
+    <string name="toast_download_folder_reset">已恢复默认保存目录</string>
+    <string name="toast_storage_permission_legacy">Android 8–9 保存文件需要存储权限</string>
+
+    <!-- 3-Tab Liquid Nav, Artwork Editing & Theme Studio -->
+    <string name="nav_download">下载</string>
+    <string name="sheet_change_cover">更换歌曲封面</string>
+    <string name="sheet_reset_cover">恢复默认黑胶唱片</string>
+    <string name="toast_cover_updated">已更新歌曲封面</string>
+    <string name="toast_cover_update_failed">无法读取所选图片</string>
+    <string name="toast_cover_reset">已恢复默认旋转黑胶</string>
+
+    <string name="theme_studio_title">主题工作室</string>
+    <string name="theme_studio_subtitle">暗黑植物玻璃拟态 &amp; 流行线性渐变</string>
+    <string name="theme_studio_customize">自定义</string>
+    <string name="theme_studio_gradients_label">热门线性渐变</string>
+    <string name="theme_studio_glass_intensity">热带植物透光深度</string>
+    <string name="theme_studio_preview_sub">磨砂玻璃质感 • 细腻渐变过渡</string>
+
+    <string name="theme_preset_botanical">密林</string>
+    <string name="theme_preset_aurora">极光</string>
+    <string name="theme_preset_orchid">夜兰</string>
+    <string name="theme_preset_ocean">深海</string>
+    <string name="theme_preset_sunset">暮光</string>
+    <string name="theme_preset_cyber">赛博紫</string>
+    <string name="theme_preset_golden">金苔</string>
+    <string name="theme_preset_rose">雾玫瑰</string>
+</resources>

@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="brand_zing_mp3">music</string>
+    <string name="brand_offline_tag">OFFLINE</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_library">보관함</string>
+    <string name="nav_discover">둘러보기</string>
+    <string name="nav_chart">#zingchart</string>
+    <string name="nav_radio">라디오</string>
+    <string name="nav_profile">내 정보</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="cd_download_screen">다운로드 화면 열기</string>
+    <string name="cd_search_screen">곡 검색</string>
+    <string name="cd_back">뒤로</string>
+    <string name="cd_play_pause">재생 또는 일시정지</string>
+    <string name="cd_next">다음 곡</string>
+    <string name="cd_previous">이전 곡</string>
+    <string name="cd_shuffle">셔플</string>
+    <string name="cd_repeat">반복</string>
+    <string name="cd_favorite">좋아요</string>
+    <string name="cd_more_options">더보기 옵션</string>
+    <string name="cd_album_cover">앨범 커버</string>
+    <string name="cd_avatar">사용자 아바타</string>
+    <string name="action_see_all">전체 보기</string>
+    <string name="action_play_all">전체 재생</string>
+    <string name="action_shuffle_play">셔플 재생</string>
+    <string name="action_add_queue">재생목록에 추가</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_confirm">확인</string>
+    <string name="action_save">저장</string>
+    <string name="action_delete">삭제</string>
+
+    <!-- Discover -->
+    <string name="section_quick_listen">빠른 감상</string>
+    <string name="section_for_you">맞춤 추천</string>
+    <string name="section_featured_playlists">인기 플레이리스트</string>
+    <string name="section_new_albums">최신 앨범</string>
+    <string name="section_new_songs">최신 곡</string>
+    <string name="section_featured_artists">인기 아티스트</string>
+    <string name="section_chart_preview">음악 차트</string>
+    <string name="section_mood_genre">무드 &amp; 장르</string>
+    <string name="banner_title">오프라인 뮤직 스페이스</string>
+    <string name="banner_subtitle">언제 어디서나 즐기는 고음질 음악 컬렉션</string>
+
+    <!-- Library -->
+    <string name="library_title">보관함</string>
+    <string name="library_import_local">기기에서 음악 가져오기</string>
+    <string name="library_favorites">좋아요 표시한 곡</string>
+    <string name="library_my_playlists">내 플레이리스트</string>
+    <string name="library_albums">앨범</string>
+    <string name="library_artists">아티스트</string>
+    <string name="library_downloaded">다운로드한 음악</string>
+    <string name="library_recent">최근 재생 기록</string>
+    <string name="library_create_playlist">플레이리스트 만들기</string>
+    <string name="library_empty_downloaded">다운로드한 음악이 없습니다. 상단 다운로드 아이콘을 눌러 추가하세요.</string>
+
+    <!-- #zingchart -->
+    <string name="chart_title">#zingchart</string>
+    <string name="chart_subtitle">오프라인 음악 차트</string>
+    <string name="chart_tab_vn">베트남</string>
+    <string name="chart_tab_usuk">US-UK</string>
+    <string name="chart_tab_kpop">K-Pop</string>
+
+    <!-- Radio -->
+    <string name="radio_title">라디오</string>
+    <string name="radio_featured">추천 라디오</string>
+    <string name="radio_mood">분위기별 라디오</string>
+    <string name="radio_genre">장르별 라디오</string>
+    <string name="radio_artist">아티스트별 라디오</string>
+    <string name="radio_collections">음악 컬렉션</string>
+
+    <!-- Profile -->
+    <string name="profile_title">내 정보</string>
+    <string name="profile_default_name">음악 애호가</string>
+    <string name="profile_stats_title">청취 통계</string>
+    <string name="profile_theme_title">라이트 / 다크 테마</string>
+    <string name="profile_player_settings">플레이어 설정</string>
+    <string name="profile_audio_settings">오디오 설정</string>
+    <string name="profile_storage">저장공간 관리</string>
+    <string name="profile_language">언어</string>
+    <string name="dialog_select_language">언어 선택</string>
+    <string name="language_system">시스템 설정 따르기</string>
+    <string name="language_changed_toast">앱 언어가 변경되었습니다</string>
+    <string name="profile_about">앱 정보</string>
+
+    <!-- Search -->
+    <string name="search_hint">곡, 아티스트, 앨범 검색...</string>
+    <string name="search_history_title">검색 기록</string>
+    <string name="search_suggestions_title">추천 검색어</string>
+    <string name="search_clear_history">기록 삭제</string>
+    <string name="search_tab_all">전체</string>
+    <string name="search_tab_songs">곡</string>
+    <string name="search_tab_artists">아티스트</string>
+    <string name="search_tab_albums">앨범</string>
+    <string name="search_tab_playlists">플레이리스트</string>
+
+    <!-- Download -->
+    <string name="download_title">멀티 소스 다운로드</string>
+    <string name="download_youtube_section">음악 &amp; 동영상 다운로드</string>
+    <string name="download_url_hint">YouTube, SoundCloud, TikTok 또는 재생목록 링크 붙여넣기...</string>
+    <string name="download_paste">링크 붙여넣기</string>
+    <string name="download_analyze">링크 분석</string>
+    <string name="download_start">지금 다운로드</string>
+    <string name="download_format_label">형식</string>
+    <string name="download_quality_label">화질 / 음질</string>
+    <string name="download_manager_section">다운로드 관리자</string>
+    <string name="download_tab_downloading">다운로드 중</string>
+    <string name="download_tab_completed">완료</string>
+    <string name="download_tab_failed">실패</string>
+
+    <!-- Player & Sheets -->
+    <string name="player_tab_cover">재생 중</string>
+    <string name="player_tab_lyrics">가사</string>
+    <string name="player_tab_queue">재생 대기열</string>
+    <string name="sheet_add_to_playlist">플레이리스트에 추가</string>
+    <string name="sheet_edit_song">곡 정보 편집</string>
+    <string name="sheet_song_info">상세 정보</string>
+    <string name="sheet_sort_songs">곡 정렬</string>
+    <string name="sheet_delete_confirm">삭제 확인</string>
+    <string name="sheet_add_favorite">좋아요에 추가</string>
+    <string name="sheet_remove_library">보관함에서 삭제</string>
+
+    <!-- Additional Localized UI Strings -->
+    <string name="quick_shuffle">셔플 재생</string>
+    <string name="quick_favorites">좋아요</string>
+    <string name="quick_downloaded">다운로드됨</string>
+    <string name="quick_lofi">집중 Lo-Fi</string>
+    <string name="banner_badge_featured">오늘의 추천</string>
+    <string name="library_all_songs">모든 곡</string>
+    <string name="library_recent_and_downloaded">최근 재생 및 다운로드</string>
+    <string name="count_songs_format">%d곡</string>
+    <string name="count_albums_format">%d개 앨범</string>
+    <string name="count_artists_format">%d명 아티스트</string>
+    <string name="detail_play">재생</string>
+    <string name="detail_empty">목록이 비어 있습니다</string>
+    <string name="search_empty">일치하는 검색 결과가 없습니다</string>
+    <string name="player_playing_from">재생 출처</string>
+    <string name="player_no_lyrics">등록된 가사가 없습니다.</string>
+    <string name="profile_tap_edit_name">탭하여 표시 이름 변경</string>
+    <string name="profile_stat_plays">재생 횟수</string>
+    <string name="profile_stat_time">청취 시간</string>
+    <string name="profile_stat_downloaded">오프라인 저장</string>
+    <string name="profile_my_playlists">내 플레이리스트</string>
+    <string name="profile_listen_history">재생 기록</string>
+    <string name="theme_light">라이트</string>
+    <string name="theme_dark">다크</string>
+    <string name="theme_system">시스템</string>
+    <string name="chart_banner_vn">베트남 차트</string>
+    <string name="chart_banner_usuk">US-UK 차트</string>
+    <string name="chart_banner_kpop">K-Pop 차트</string>
+    <string name="download_engine_subtitle">YouTube, SoundCloud, TikTok, 재생목록 지원 • yt-dlp + FFmpeg</string>
+    <string name="download_empty_list">이 탭에 다운로드 작업이 없습니다</string>
+
+    <!-- Library & Formats -->
+    <string name="library_zero_songs">0곡</string>
+    <string name="library_zero_albums">0개 앨범</string>
+    <string name="library_zero_artists">0명 아티스트</string>
+    <string name="library_source_title">개인 보관함</string>
+    <string name="toast_importing_song">보관함으로 곡을 가져오는 중...</string>
+    <string name="toast_imported_song">다운로드한 음악에 곡을 추가했습니다!</string>
+
+    <!-- Accessibility & Hints -->
+    <string name="cd_clear_search">검색어 지우기</string>
+    <string name="cd_pause_resume">일시정지 또는 계속</string>
+    <string name="hint_playlist_name">플레이리스트 이름</string>
+    <string name="hint_playlist_desc">설명 (선택사항)</string>
+    <string name="hint_song_title">곡 제목</string>
+    <string name="hint_artist">아티스트</string>
+    <string name="hint_album">앨범</string>
+    <string name="hint_genre">장르</string>
+
+    <!-- Profile, Settings & Time -->
+    <string name="profile_calculating_storage">저장공간 계산 중...</string>
+    <string name="profile_player_summary_format">재생 속도 %1$sx • %2$s</string>
+    <string name="profile_crossfade_on">크로스페이드 켜짐</string>
+    <string name="profile_crossfade_off">크로스페이드 꺼짐</string>
+    <string name="profile_audio_summary_format">이퀄라이저: %1$s • Bass Boost: %2$s</string>
+    <string name="profile_state_on">켜짐</string>
+    <string name="profile_state_off">꺼짐</string>
+    <string name="profile_storage_summary_format">오프라인 저장공간 %s 사용 중</string>
+    <string name="profile_edit_name_title">표시 이름 변경</string>
+    <string name="player_speed_075">속도 0.75x</string>
+    <string name="player_speed_100">속도 1.0x (기본)</string>
+    <string name="player_speed_125">속도 1.25x</string>
+    <string name="player_speed_150">속도 1.5x</string>
+    <string name="player_crossfade_enable">부드러운 전환(Crossfade) 켜기</string>
+    <string name="player_crossfade_disable">부드러운 전환(Crossfade) 끄기</string>
+    <string name="toast_player_settings_updated">플레이어 설정이 업데이트되었습니다</string>
+    <string name="eq_balanced">균형</string>
+    <string name="eq_pop">Pop</string>
+    <string name="eq_bass">강한 베이스</string>
+    <string name="eq_acoustic">어쿠스틱</string>
+    <string name="audio_bass_enable">Bass Boost 켜기</string>
+    <string name="audio_bass_disable">Bass Boost 끄기</string>
+    <string name="toast_audio_settings_applied">오디오 효과가 적용되었습니다</string>
+    <string name="storage_dialog_message_format">오프라인 음악 및 다운로드 전체 용량: %s</string>
+    <string name="action_close">닫기</string>
+    <string name="storage_clear_cache">캐시 정리</string>
+    <string name="toast_cache_cleared">캐시가 정리되었습니다</string>
+    <string name="about_app_message">Music — 모던 오프라인 음악 플레이어\n버전: 1.0\n아키텍처: Java + XML + Material Design 3 + Room + MediaPlayer</string>
+    <string name="time_sec_format">%d초</string>
+    <string name="time_min_format">%d분</string>
+    <string name="time_hour_min_format">%1$d시간 %2$d분</string>
+
+    <!-- Discover Moods & Chart Source -->
+    <string name="mood_relax_title">휴식</string>
+    <string name="mood_relax_sub">잔잔한 음악</string>
+    <string name="mood_focus_title">집중</string>
+    <string name="mood_focus_sub">Lo-Fi &amp; 어쿠스틱</string>
+    <string name="mood_energy_title">에너지</string>
+    <string name="mood_energy_sub">V-Pop &amp; K-Pop</string>
+    <string name="mood_romance_title">로맨스</string>
+    <string name="mood_romance_sub">감성 발라드</string>
+    <string name="mood_night_title">심야</string>
+    <string name="mood_night_sub">Midnight Synth</string>
+    <string name="chart_source_vn">#zingchart 베트남</string>
+
+    <!-- Detail & Search & Song Menu -->
+    <string name="detail_empty_play_toast">재생할 곡이 없습니다</string>
+    <string name="detail_added_queue_toast">%d곡을 대기열에 추가했습니다</string>
+    <string name="detail_album_creator">앨범 보관함</string>
+    <string name="detail_album_desc">기기에 저장된 오프라인 앨범 모음</string>
+    <string name="detail_artist_list_creator">보관함 아티스트</string>
+    <string name="detail_artist_list_desc">아티스트를 선택해 모든 곡을 감상하세요</string>
+    <string name="detail_playlist_creator_format">만든 이: %s</string>
+    <string name="detail_artist_creator">아티스트</string>
+    <string name="detail_artist_desc_format">%s의 추천 곡 모음</string>
+    <string name="detail_fav_creator">좋아요 목록</string>
+    <string name="detail_fav_desc">좋아요를 누른 곡 목록</string>
+    <string name="detail_dl_creator">기기에 저장됨</string>
+    <string name="detail_dl_desc">다운로드하거나 기기에서 가져온 음악</string>
+    <string name="detail_recent_creator">재생 기록</string>
+    <string name="detail_recent_desc">최근 감상한 곡</string>
+    <string name="detail_keyword_creator">테마 &amp; 무드</string>
+    <string name="detail_keyword_desc_format">키워드 \"%s\"에 맞는 음악</string>
+    <string name="detail_all_creator">오프라인 음악 컬렉션</string>
+    <string name="detail_all_desc">보관함에 있는 모든 곡</string>
+    <string name="detail_meta_songs_duration_format">%1$d곡 • %2$s</string>
+    <string name="detail_delete_playlist">이 플레이리스트 삭제</string>
+    <string name="toast_added_queue">대기열에 추가되었습니다</string>
+    <string name="toast_deleted_playlist">플레이리스트가 삭제되었습니다</string>
+    <string name="sort_default">기본순</string>
+    <string name="sort_title_az">곡 제목 (A-Z)</string>
+    <string name="sort_artist_az">아티스트 (A-Z)</string>
+    <string name="sort_duration_desc">재생 시간 (긴 순)</string>
+    <string name="search_source_title">검색 결과</string>
+    <string name="sheet_remove_favorite">좋아요에서 삭제</string>
+    <string name="toast_added_favorite">좋아요에 추가되었습니다</string>
+    <string name="toast_removed_favorite">좋아요에서 삭제되었습니다</string>
+    <string name="toast_added_to_named_playlist">\"%s\"에 추가되었습니다</string>
+    <string name="dialog_create_playlist_title">새 플레이리스트</string>
+    <string name="action_create">만들기</string>
+    <string name="toast_enter_playlist_name">플레이리스트 이름을 입력하세요</string>
+    <string name="toast_created_playlist">플레이리스트 \"%s\"가 생성되었습니다</string>
+    <string name="unknown_artist">알 수 없는 아티스트</string>
+    <string name="toast_song_updated">곡 정보가 업데이트되었습니다</string>
+    <string name="single_album">싱글</string>
+    <string name="status_downloaded_offline">오프라인 다운로드됨</string>
+    <string name="status_local_library">로컬 보관함</string>
+    <string name="song_info_format">제목: %1$s\n아티스트: %2$s\n앨범: %3$s\n장르: %4$s\n무드: %5$s\n길이: %6$s\n재생 수: %7$d\n파일 크기: %8$s\n상태: %9$s</string>
+    <string name="delete_song_confirm_format">\"%s\" 곡을 보관함에서 삭제하시겠습니까?</string>
+    <string name="toast_song_deleted">곡이 삭제되었습니다</string>
+
+    <!-- Download & Tasks -->
+    <string name="download_enter_url_toast">음악 또는 동영상 링크를 입력하세요</string>
+    <string name="download_clipboard_empty">클립보드가 비어 있습니다</string>
+    <string name="download_video_saved_toast">동영상이 Movies/OfficeAI에 저장되었습니다</string>
+    <string name="download_audio_saved_toast">보관함 &gt; 다운로드한 음악에 저장되었습니다</string>
+    <string name="download_duration_format">길이: %s</string>
+    <string name="download_playlist_badge_format">%1$s • 재생목록 %2$d곡</string>
+    <string name="dl_meta_queued_format">%1$s %2$s • 대기 중</string>
+    <string name="dl_status_preparing">다운로드 준비 중...</string>
+    <string name="dl_status_converting">FFmpeg 변환 중...</string>
+    <string name="dl_playlist_item_prefix_format">트랙 %1$d/%2$d • </string>
+    <string name="dl_eta_format"> • %d초 남음</string>
+    <string name="dl_status_downloading_format">다운로드 중 (%1$d%%) • %2$s %3$s%4$s</string>
+    <string name="dl_status_paused_format">일시정지 (%d%%) — 탭하여 재개</string>
+    <string name="dl_status_completed_video">완료 • Movies/OfficeAI에 저장됨</string>
+    <string name="dl_status_completed_audio">완료 • 보관함 및 Music/OfficeAI에 저장됨</string>
+    <string name="dl_status_failed">다운로드 실패</string>
+    <string name="dl_vm_added_playlist">재생목록(%d개)을 다운로드 대기열에 추가했습니다</string>
+    <string name="dl_vm_added_queue">다운로드 대기열에 추가했습니다</string>
+    <string name="dl_vm_duplicate">이미 목록에 있거나 완료된 작업입니다</string>
+
+    <!-- Device Scan & Download Folder -->
+    <string name="library_scan_device">기기 음악 스캔</string>
+    <string name="toast_scanning_device">기기의 음악을 스캔하는 중...</string>
+    <string name="toast_scan_found_format">기기에서 %d곡을 추가했습니다</string>
+    <string name="toast_scan_no_new">새로운 음악을 찾지 못했습니다</string>
+    <string name="toast_scan_permission_denied">기기의 음악을 스캔하려면 오디오 권한이 필요합니다</string>
+    <string name="download_folder_label_format">저장 폴더: %s</string>
+    <string name="download_folder_default">Music/Music (기본값)</string>
+    <string name="download_choose_folder">폴더 선택</string>
+    <string name="download_reset_folder">기본값</string>
+    <string name="toast_download_folder_updated">저장 폴더 설정됨: %s</string>
+    <string name="toast_download_folder_reset">기본 저장 폴더로 재설정됨</string>
+    <string name="toast_storage_permission_legacy">Android 8–9에서 저장하려면 저장소 권한이 필요합니다</string>
+
+    <!-- 3-Tab Liquid Nav, Artwork Editing & Theme Studio -->
+    <string name="nav_download">다운로드</string>
+    <string name="sheet_change_cover">앨범 아트 변경</string>
+    <string name="sheet_reset_cover">기본 레코드판으로 재설정</string>
+    <string name="toast_cover_updated">곡 이미지가 업데이트되었습니다</string>
+    <string name="toast_cover_update_failed">선택한 이미지를 불러올 수 없습니다</string>
+    <string name="toast_cover_reset">기본 회전 디스크로 복원되었습니다</string>
+
+    <string name="theme_studio_title">테마 스튜디오</string>
+    <string name="theme_studio_subtitle">다크 보태니컬 글래스 &amp; 리니어 그라디언트</string>
+    <string name="theme_studio_customize">사용자 지정</string>
+    <string name="theme_studio_gradients_label">인기 리니어 그라디언트</string>
+    <string name="theme_studio_glass_intensity">식물 배경 유리 깊이</string>
+    <string name="theme_studio_preview_sub">반투명 글래스모피즘 • 부드러운 그라디언트</string>
+
+    <string name="theme_preset_botanical">딥 포레스트</string>
+    <string name="theme_preset_aurora">오로라</string>
+    <string name="theme_preset_orchid">나이트 오키드</string>
+    <string name="theme_preset_ocean">딥 오션</string>
+    <string name="theme_preset_sunset">선셋</string>
+    <string name="theme_preset_cyber">사이버</string>
+    <string name="theme_preset_golden">골든 모스</string>
+    <string name="theme_preset_rose">미스티 로즈</string>
+</resources>

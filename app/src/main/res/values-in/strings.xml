@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="brand_zing_mp3">music</string>
+    <string name="brand_offline_tag">OFFLINE</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_library">Pustaka</string>
+    <string name="nav_discover">Jelajahi</string>
+    <string name="nav_chart">#zingchart</string>
+    <string name="nav_radio">Radio</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="cd_download_screen">Buka layar Unduhan</string>
+    <string name="cd_search_screen">Cari lagu</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_play_pause">Putar atau jeda</string>
+    <string name="cd_next">Lagu berikutnya</string>
+    <string name="cd_previous">Lagu sebelumnya</string>
+    <string name="cd_shuffle">Acak</string>
+    <string name="cd_repeat">Ulangi</string>
+    <string name="cd_favorite">Favorit</string>
+    <string name="cd_more_options">Opsi lainnya</string>
+    <string name="cd_album_cover">Sampul album</string>
+    <string name="cd_avatar">Avatar pengguna</string>
+    <string name="action_see_all">Lihat semua</string>
+    <string name="action_play_all">Putar semua</string>
+    <string name="action_shuffle_play">Putar acak</string>
+    <string name="action_add_queue">Tambah ke antrean</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_confirm">Konfirmasi</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_delete">Hapus</string>
+
+    <!-- Discover -->
+    <string name="section_quick_listen">Dengar Cepat</string>
+    <string name="section_for_you">Khusus Untukmu</string>
+    <string name="section_featured_playlists">Playlist Pilihan</string>
+    <string name="section_new_albums">Rilisan Terbaru</string>
+    <string name="section_new_songs">Lagu Baru</string>
+    <string name="section_featured_artists">Artis Populer</string>
+    <string name="section_chart_preview">Tangga Lagu</string>
+    <string name="section_mood_genre">Suasana &amp; Genre</string>
+    <string name="banner_title">Ruang Musik Offline</string>
+    <string name="banner_subtitle">Koleksi musik berkualitas tinggi yang bisa didengar kapan saja</string>
+
+    <!-- Library -->
+    <string name="library_title">Pustaka</string>
+    <string name="library_import_local">Impor musik dari perangkat</string>
+    <string name="library_favorites">Lagu Favorit</string>
+    <string name="library_my_playlists">Playlist Saya</string>
+    <string name="library_albums">Album</string>
+    <string name="library_artists">Artis</string>
+    <string name="library_downloaded">Musik Terunduh</string>
+    <string name="library_recent">Baru Diputar</string>
+    <string name="library_create_playlist">Buat playlist</string>
+    <string name="library_empty_downloaded">Belum ada musik yang diunduh. Ketuk ikon Unduh di kanan atas untuk mengunduh.</string>
+
+    <!-- #zingchart -->
+    <string name="chart_title">#zingchart</string>
+    <string name="chart_subtitle">Tangga lagu musik offline terbaru</string>
+    <string name="chart_tab_vn">Vietnam</string>
+    <string name="chart_tab_usuk">US-UK</string>
+    <string name="chart_tab_kpop">K-Pop</string>
+
+    <!-- Radio -->
+    <string name="radio_title">Radio</string>
+    <string name="radio_featured">Radio Pilihan</string>
+    <string name="radio_mood">Radio sesuai Suasana</string>
+    <string name="radio_genre">Radio sesuai Genre</string>
+    <string name="radio_artist">Radio sesuai Artis</string>
+    <string name="radio_collections">Koleksi Musik</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_default_name">Pecinta Musik</string>
+    <string name="profile_stats_title">Statistik Mendengarkan</string>
+    <string name="profile_theme_title">Tema Terang / Gelap</string>
+    <string name="profile_player_settings">Pengaturan Pemutar</string>
+    <string name="profile_audio_settings">Pengaturan Audio</string>
+    <string name="profile_storage">Kelola Penyimpanan</string>
+    <string name="profile_language">Bahasa</string>
+    <string name="dialog_select_language">Pilih Bahasa</string>
+    <string name="language_system">Ikuti Sistem</string>
+    <string name="language_changed_toast">Bahasa aplikasi diperbarui</string>
+    <string name="profile_about">Tentang Aplikasi</string>
+
+    <!-- Search -->
+    <string name="search_hint">Cari lagu, artis, album...</string>
+    <string name="search_history_title">Riwayat Pencarian</string>
+    <string name="search_suggestions_title">Rekomendasi Untukmu</string>
+    <string name="search_clear_history">Hapus riwayat</string>
+    <string name="search_tab_all">Semua</string>
+    <string name="search_tab_songs">Lagu</string>
+    <string name="search_tab_artists">Artis</string>
+    <string name="search_tab_albums">Album</string>
+    <string name="search_tab_playlists">Playlist</string>
+
+    <!-- Download -->
+    <string name="download_title">Unduhan Multi-Sumber</string>
+    <string name="download_youtube_section">Unduh Musik &amp; Video</string>
+    <string name="download_url_hint">Tempel tautan YouTube, SoundCloud, TikTok, atau Playlist...</string>
+    <string name="download_paste">Tempel Tautan</string>
+    <string name="download_analyze">Analisis Tautan</string>
+    <string name="download_start">Unduh Sekarang</string>
+    <string name="download_format_label">Format</string>
+    <string name="download_quality_label">Kualitas</string>
+    <string name="download_manager_section">Manajer Unduhan</string>
+    <string name="download_tab_downloading">Mengunduh</string>
+    <string name="download_tab_completed">Selesai</string>
+    <string name="download_tab_failed">Gagal</string>
+
+    <!-- Player & Sheets -->
+    <string name="player_tab_cover">Sedang Diputar</string>
+    <string name="player_tab_lyrics">Lirik</string>
+    <string name="player_tab_queue">Antrean</string>
+    <string name="sheet_add_to_playlist">Tambah ke Playlist</string>
+    <string name="sheet_edit_song">Edit Info Lagu</string>
+    <string name="sheet_song_info">Detail Lagu</string>
+    <string name="sheet_sort_songs">Urutkan Lagu</string>
+    <string name="sheet_delete_confirm">Konfirmasi Hapus</string>
+    <string name="sheet_add_favorite">Tambah ke Favorit</string>
+    <string name="sheet_remove_library">Hapus dari pustaka</string>
+
+    <!-- Additional Localized UI Strings -->
+    <string name="quick_shuffle">Putar Acak</string>
+    <string name="quick_favorites">Favorit</string>
+    <string name="quick_downloaded">Terunduh</string>
+    <string name="quick_lofi">Fokus Lo-Fi</string>
+    <string name="banner_badge_featured">PILIHAN HARI INI</string>
+    <string name="library_all_songs">Semua Lagu</string>
+    <string name="library_recent_and_downloaded">Baru Diputar &amp; Terunduh</string>
+    <string name="count_songs_format">%d lagu</string>
+    <string name="count_albums_format">%d album</string>
+    <string name="count_artists_format">%d artis</string>
+    <string name="detail_play">Putar</string>
+    <string name="detail_empty">Daftar ini kosong</string>
+    <string name="search_empty">Tidak ditemukan hasil yang cocok</string>
+    <string name="player_playing_from">DIPUTAR DARI</string>
+    <string name="player_no_lyrics">Lirik belum tersedia.</string>
+    <string name="profile_tap_edit_name">Ketuk untuk ubah nama tampilan</string>
+    <string name="profile_stat_plays">Diputar</string>
+    <string name="profile_stat_time">Waktu Dengar</string>
+    <string name="profile_stat_downloaded">Terunduh</string>
+    <string name="profile_my_playlists">Playlist Pribadi</string>
+    <string name="profile_listen_history">Riwayat Putar</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_system">Sistem</string>
+    <string name="chart_banner_vn">Tangga Lagu Vietnam</string>
+    <string name="chart_banner_usuk">Tangga Lagu US-UK</string>
+    <string name="chart_banner_kpop">Tangga Lagu K-Pop</string>
+    <string name="download_engine_subtitle">Mendukung YouTube, SoundCloud, TikTok, Playlist • yt-dlp + FFmpeg</string>
+    <string name="download_empty_list">Belum ada tugas unduhan di bagian ini</string>
+
+    <!-- Library & Formats -->
+    <string name="library_zero_songs">0 lagu</string>
+    <string name="library_zero_albums">0 album</string>
+    <string name="library_zero_artists">0 artis</string>
+    <string name="library_source_title">Pustaka Pribadi</string>
+    <string name="toast_importing_song">Mengimpor lagu ke pustaka...</string>
+    <string name="toast_imported_song">Lagu ditambahkan ke Musik Terunduh!</string>
+
+    <!-- Accessibility & Hints -->
+    <string name="cd_clear_search">Hapus kata kunci</string>
+    <string name="cd_pause_resume">Jeda atau Lanjutkan</string>
+    <string name="hint_playlist_name">Nama playlist</string>
+    <string name="hint_playlist_desc">Deskripsi (opsional)</string>
+    <string name="hint_song_title">Judul lagu</string>
+    <string name="hint_artist">Artis</string>
+    <string name="hint_album">Album</string>
+    <string name="hint_genre">Genre</string>
+
+    <!-- Profile, Settings & Time -->
+    <string name="profile_calculating_storage">Menghitung penyimpanan...</string>
+    <string name="profile_player_summary_format">Kecepatan %1$sx • %2$s</string>
+    <string name="profile_crossfade_on">Crossfade aktif</string>
+    <string name="profile_crossfade_off">Crossfade mati</string>
+    <string name="profile_audio_summary_format">Equalizer: %1$s • Bass Boost: %2$s</string>
+    <string name="profile_state_on">Aktif</string>
+    <string name="profile_state_off">Mati</string>
+    <string name="profile_storage_summary_format">Menggunakan %s penyimpanan offline</string>
+    <string name="profile_edit_name_title">Ubah Nama Tampilan</string>
+    <string name="player_speed_075">Kecepatan 0.75x</string>
+    <string name="player_speed_100">Kecepatan 1.0x (Normal)</string>
+    <string name="player_speed_125">Kecepatan 1.25x</string>
+    <string name="player_speed_150">Kecepatan 1.5x</string>
+    <string name="player_crossfade_enable">Aktifkan Crossfade</string>
+    <string name="player_crossfade_disable">Matikan Crossfade</string>
+    <string name="toast_player_settings_updated">Pengaturan pemutar diperbarui</string>
+    <string name="eq_balanced">Seimbang</string>
+    <string name="eq_pop">Pop</string>
+    <string name="eq_bass">Bass Kuat</string>
+    <string name="eq_acoustic">Akustik</string>
+    <string name="audio_bass_enable">Aktifkan Bass Boost</string>
+    <string name="audio_bass_disable">Matikan Bass Boost</string>
+    <string name="toast_audio_settings_applied">Efek audio diterapkan</string>
+    <string name="storage_dialog_message_format">Total penyimpanan musik offline dan unduhan: %s</string>
+    <string name="action_close">Tutup</string>
+    <string name="storage_clear_cache">Bersihkan cache</string>
+    <string name="toast_cache_cleared">Cache dibersihkan</string>
+    <string name="about_app_message">Music — Pemutar Musik Offline Modern\nVersi: 1.0\nArsitektur: Java + XML + Material Design 3 + Room + MediaPlayer</string>
+    <string name="time_sec_format">%d dtk</string>
+    <string name="time_min_format">%d mnt</string>
+    <string name="time_hour_min_format">%1$d jam %2$d mnt</string>
+
+    <!-- Discover Moods & Chart Source -->
+    <string name="mood_relax_title">Santai</string>
+    <string name="mood_relax_sub">Musik tenang</string>
+    <string name="mood_focus_title">Fokus</string>
+    <string name="mood_focus_sub">Lo-Fi &amp; Akustik</string>
+    <string name="mood_energy_title">Energi</string>
+    <string name="mood_energy_sub">V-Pop &amp; K-Pop</string>
+    <string name="mood_romance_title">Romantis</string>
+    <string name="mood_romance_sub">Balada penuh rasa</string>
+    <string name="mood_night_title">Larut Malam</string>
+    <string name="mood_night_sub">Midnight Synth</string>
+    <string name="chart_source_vn">#zingchart Vietnam</string>
+
+    <!-- Detail & Search & Song Menu -->
+    <string name="detail_empty_play_toast">Tidak ada lagu untuk diputar</string>
+    <string name="detail_added_queue_toast">%d lagu ditambahkan ke antrean</string>
+    <string name="detail_album_creator">Pustaka Album</string>
+    <string name="detail_album_desc">Koleksi album offline di perangkat</string>
+    <string name="detail_artist_list_creator">Artis di Pustaka</string>
+    <string name="detail_artist_list_desc">Pilih artis untuk memutar semua lagunya</string>
+    <string name="detail_playlist_creator_format">Dibuat oleh %s</string>
+    <string name="detail_artist_creator">Artis</string>
+    <string name="detail_artist_desc_format">Lagu pilihan dari %s</string>
+    <string name="detail_fav_creator">Daftar Favorit</string>
+    <string name="detail_fav_desc">Lagu yang Anda tandai sebagai favorit</string>
+    <string name="detail_dl_creator">Tersimpan di Perangkat</string>
+    <string name="detail_dl_desc">Musik yang diunduh atau diimpor dari perangkat</string>
+    <string name="detail_recent_creator">Riwayat Putar</string>
+    <string name="detail_recent_desc">Lagu yang baru saja Anda dengarkan</string>
+    <string name="detail_keyword_creator">Tema &amp; Suasana</string>
+    <string name="detail_keyword_desc_format">Musik pilihan dengan kata kunci %s</string>
+    <string name="detail_all_creator">Koleksi Musik Offline</string>
+    <string name="detail_all_desc">Semua lagu yang tersedia di pustaka Anda</string>
+    <string name="detail_meta_songs_duration_format">%1$d lagu • %2$s</string>
+    <string name="detail_delete_playlist">Hapus Playlist ini</string>
+    <string name="toast_added_queue">Ditambahkan ke antrean</string>
+    <string name="toast_deleted_playlist">Playlist dihapus</string>
+    <string name="sort_default">Default</string>
+    <string name="sort_title_az">Judul Lagu (A-Z)</string>
+    <string name="sort_artist_az">Artis (A-Z)</string>
+    <string name="sort_duration_desc">Durasi (Terlama)</string>
+    <string name="search_source_title">Hasil Pencarian</string>
+    <string name="sheet_remove_favorite">Hapus dari Favorit</string>
+    <string name="toast_added_favorite">Ditambahkan ke Favorit</string>
+    <string name="toast_removed_favorite">Dihapus dari Favorit</string>
+    <string name="toast_added_to_named_playlist">Ditambahkan ke \"%s\"</string>
+    <string name="dialog_create_playlist_title">Buat Playlist Baru</string>
+    <string name="action_create">Buat</string>
+    <string name="toast_enter_playlist_name">Silakan masukkan nama playlist</string>
+    <string name="toast_created_playlist">Playlist \"%s\" dibuat</string>
+    <string name="unknown_artist">Artis tidak dikenal</string>
+    <string name="toast_song_updated">Info lagu diperbarui</string>
+    <string name="single_album">Single</string>
+    <string name="status_downloaded_offline">Diunduh offline</string>
+    <string name="status_local_library">Pustaka lokal</string>
+    <string name="song_info_format">Judul: %1$s\nArtis: %2$s\nAlbum: %3$s\nGenre: %4$s\nSuasana: %5$s\nDurasi: %6$s\nDiputar: %7$d\nUkuran file: %8$s\nStatus: %9$s</string>
+    <string name="delete_song_confirm_format">Yakin ingin menghapus \"%s\" dari pustaka?</string>
+    <string name="toast_song_deleted">Lagu dihapus</string>
+
+    <!-- Download & Tasks -->
+    <string name="download_enter_url_toast">Masukkan tautan musik atau video</string>
+    <string name="download_clipboard_empty">Clipboard kosong</string>
+    <string name="download_video_saved_toast">Video disimpan ke Movies/OfficeAI</string>
+    <string name="download_audio_saved_toast">Disimpan ke Pustaka &gt; Musik Terunduh</string>
+    <string name="download_duration_format">Durasi: %s</string>
+    <string name="download_playlist_badge_format">%1$s • Playlist %2$d lagu</string>
+    <string name="dl_meta_queued_format">%1$s %2$s • Dalam antrean</string>
+    <string name="dl_status_preparing">Menyiapkan unduhan...</string>
+    <string name="dl_status_converting">Mengonversi dengan FFmpeg...</string>
+    <string name="dl_playlist_item_prefix_format">Lagu %1$d/%2$d • </string>
+    <string name="dl_eta_format"> • Sisa %ddtk</string>
+    <string name="dl_status_downloading_format">Mengunduh (%1$d%%) • %2$s %3$s%4$s</string>
+    <string name="dl_status_paused_format">Dijeda (%d%%) — Ketuk untuk lanjut</string>
+    <string name="dl_status_completed_video">Selesai • Disimpan di Movies/OfficeAI</string>
+    <string name="dl_status_completed_audio">Selesai • Disimpan ke Pustaka &amp; Music/OfficeAI</string>
+    <string name="dl_status_failed">Unduhan gagal</string>
+    <string name="dl_vm_added_playlist">Playlist (%d item) ditambahkan ke antrean unduhan</string>
+    <string name="dl_vm_added_queue">Ditambahkan ke antrean unduhan</string>
+    <string name="dl_vm_duplicate">Tugas ini sudah ada di daftar atau sudah selesai</string>
+
+    <!-- Device Scan & Download Folder -->
+    <string name="library_scan_device">Pindai musik perangkat</string>
+    <string name="toast_scanning_device">Memindai musik di perangkat...</string>
+    <string name="toast_scan_found_format">Menambahkan %d lagu dari perangkat</string>
+    <string name="toast_scan_no_new">Tidak ada lagu baru di perangkat</string>
+    <string name="toast_scan_permission_denied">Izin audio diperlukan untuk memindai musik perangkat</string>
+    <string name="download_folder_label_format">Folder simpan: %s</string>
+    <string name="download_folder_default">Music/Music (Default)</string>
+    <string name="download_choose_folder">Pilih folder</string>
+    <string name="download_reset_folder">Default</string>
+    <string name="toast_download_folder_updated">Folder simpan dipilih: %s</string>
+    <string name="toast_download_folder_reset">Dikembalikan ke folder default</string>
+    <string name="toast_storage_permission_legacy">Izin penyimpanan diperlukan di Android 8–9</string>
+
+    <!-- 3-Tab Liquid Nav, Artwork Editing & Theme Studio -->
+    <string name="nav_download">Unduh</string>
+    <string name="sheet_change_cover">Ubah gambar lagu</string>
+    <string name="sheet_reset_cover">Kembalikan piringan default</string>
+    <string name="toast_cover_updated">Gambar lagu diperbarui</string>
+    <string name="toast_cover_update_failed">Tidak dapat memuat gambar</string>
+    <string name="toast_cover_reset">Piringan putar default dipulihkan</string>
+
+    <string name="theme_studio_title">Theme Studio</string>
+    <string name="theme_studio_subtitle">Dark Botanical Glassmorphism &amp; Gradien Linear</string>
+    <string name="theme_studio_customize">Sesuaikan</string>
+    <string name="theme_studio_gradients_label">Pilih Linear Gradient Populer</string>
+    <string name="theme_studio_glass_intensity">Kedalaman kaca daun</string>
+    <string name="theme_studio_preview_sub">Kaca buram botani • Gradien halus</string>
+
+    <string name="theme_preset_botanical">Hutan</string>
+    <string name="theme_preset_aurora">Aurora</string>
+    <string name="theme_preset_orchid">Anggrek</string>
+    <string name="theme_preset_ocean">Samudra</string>
+    <string name="theme_preset_sunset">Senja</string>
+    <string name="theme_preset_cyber">Cyber</string>
+    <string name="theme_preset_golden">Lumut Emas</string>
+    <string name="theme_preset_rose">Mawar</string>
+</resources>

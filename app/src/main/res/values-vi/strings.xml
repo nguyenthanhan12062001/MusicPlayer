@@ -1,0 +1,324 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="brand_zing_mp3">music</string>
+    <string name="brand_offline_tag">OFFLINE</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_library">Thư viện</string>
+    <string name="nav_discover">Khám phá</string>
+    <string name="nav_chart">#zingchart</string>
+    <string name="nav_radio">Radio</string>
+    <string name="nav_profile">Cá nhân</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="cd_download_screen">Mở màn hình Download</string>
+    <string name="cd_search_screen">Tìm kiếm bài hát</string>
+    <string name="cd_back">Quay lại</string>
+    <string name="cd_play_pause">Phát hoặc tạm dừng</string>
+    <string name="cd_next">Bài tiếp theo</string>
+    <string name="cd_previous">Bài trước</string>
+    <string name="cd_shuffle">Phát ngẫu nhiên</string>
+    <string name="cd_repeat">Lặp lại</string>
+    <string name="cd_favorite">Yêu thích</string>
+    <string name="cd_more_options">Tùy chọn thêm</string>
+    <string name="cd_album_cover">Ảnh bìa nhạc</string>
+    <string name="cd_avatar">Ảnh đại diện người dùng</string>
+    <string name="action_see_all">Xem tất cả</string>
+    <string name="action_play_all">Phát tất cả</string>
+    <string name="action_shuffle_play">Phát ngẫu nhiên</string>
+    <string name="action_add_queue">Thêm vào hàng đợi</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_confirm">Xác nhận</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_delete">Xóa</string>
+
+    <!-- Khám phá -->
+    <string name="section_quick_listen">Nghe nhanh</string>
+    <string name="section_for_you">Dành riêng cho bạn</string>
+    <string name="section_featured_playlists">Playlist nổi bật</string>
+    <string name="section_new_albums">Album mới phát hành</string>
+    <string name="section_new_songs">Bài hát mới</string>
+    <string name="section_featured_artists">Nghệ sĩ nổi bật</string>
+    <string name="section_chart_preview">Bảng xếp hạng</string>
+    <string name="section_mood_genre">Tâm trạng &amp; Thể loại</string>
+    <string name="banner_title">Không gian âm nhạc Offline</string>
+    <string name="banner_subtitle">Tuyển tập nhạc chất lượng cao nghe mọi lúc</string>
+
+    <!-- Thư viện -->
+    <string name="library_title">Thư viện</string>
+    <string name="library_import_local">Nhập nhạc từ thiết bị</string>
+    <string name="library_favorites">Bài hát yêu thích</string>
+    <string name="library_my_playlists">Playlist của tôi</string>
+    <string name="library_albums">Album</string>
+    <string name="library_artists">Nghệ sĩ</string>
+    <string name="library_downloaded">Nhạc đã tải xuống</string>
+    <string name="library_recent">Lịch sử nghe gần đây</string>
+    <string name="library_create_playlist">Tạo playlist</string>
+    <string name="library_empty_downloaded">Chưa có nhạc tải xuống. Nhấn biểu tượng Download ở góc trên để tải từ YouTube.</string>
+
+    <!-- #zingchart -->
+    <string name="chart_title">#zingchart</string>
+    <string name="chart_subtitle">Bảng xếp hạng âm nhạc cập nhật offline</string>
+    <string name="chart_tab_vn">Việt Nam</string>
+    <string name="chart_tab_usuk">US-UK</string>
+    <string name="chart_tab_kpop">K-Pop</string>
+
+    <!-- Radio -->
+    <string name="radio_title">Radio</string>
+    <string name="radio_featured">Radio nổi bật</string>
+    <string name="radio_mood">Radio theo tâm trạng</string>
+    <string name="radio_genre">Radio theo thể loại</string>
+    <string name="radio_artist">Radio theo nghệ sĩ</string>
+    <string name="radio_collections">Bộ sưu tập nhạc</string>
+
+    <!-- Cá nhân -->
+    <string name="profile_title">Cá nhân</string>
+    <string name="profile_default_name">Người yêu nhạc</string>
+    <string name="profile_stats_title">Thống kê nghe nhạc</string>
+    <string name="profile_theme_title">Giao diện Sáng / Tối</string>
+    <string name="profile_player_settings">Cài đặt trình phát</string>
+    <string name="profile_audio_settings">Cài đặt âm thanh</string>
+    <string name="profile_storage">Quản lý dung lượng</string>
+    <string name="profile_language">Ngôn ngữ</string>
+    <string name="dialog_select_language">Chọn ngôn ngữ</string>
+    <string name="language_system">Theo hệ thống</string>
+    <string name="language_changed_toast">Đã chuyển ngôn ngữ ứng dụng</string>
+    <string name="profile_about">Thông tin ứng dụng</string>
+
+    <!-- Tìm kiếm -->
+    <string name="search_hint">Tìm kiếm bài hát, nghệ sĩ, album...</string>
+    <string name="search_history_title">Lịch sử tìm kiếm</string>
+    <string name="search_suggestions_title">Gợi ý cho bạn</string>
+    <string name="search_clear_history">Xóa lịch sử</string>
+    <string name="search_tab_all">Tất cả</string>
+    <string name="search_tab_songs">Bài hát</string>
+    <string name="search_tab_artists">Nghệ sĩ</string>
+    <string name="search_tab_albums">Album</string>
+    <string name="search_tab_playlists">Playlist</string>
+
+    <!-- Download -->
+    <string name="download_title">Download đa nguồn</string>
+    <string name="download_youtube_section">Tải nhạc &amp; video đa nguồn</string>
+    <string name="download_url_hint">Dán link YouTube, SoundCloud, TikTok, Playlist...</string>
+    <string name="download_paste">Dán liên kết</string>
+    <string name="download_analyze">Phân tích liên kết</string>
+    <string name="download_start">Tải xuống ngay</string>
+    <string name="download_format_label">Định dạng</string>
+    <string name="download_quality_label">Chất lượng</string>
+    <string name="download_manager_section">Download Manager</string>
+    <string name="download_tab_downloading">Đang tải</string>
+    <string name="download_tab_completed">Đã hoàn thành</string>
+    <string name="download_tab_failed">Thất bại</string>
+
+    <!-- Player & Sheets -->
+    <string name="player_tab_cover">Đang phát</string>
+    <string name="player_tab_lyrics">Lời bài hát</string>
+    <string name="player_tab_queue">Danh sách chờ</string>
+    <string name="sheet_add_to_playlist">Thêm vào Playlist</string>
+    <string name="sheet_edit_song">Chỉnh sửa thông tin bài hát</string>
+    <string name="sheet_song_info">Thông tin chi tiết</string>
+    <string name="sheet_sort_songs">Sắp xếp bài hát</string>
+    <string name="sheet_delete_confirm">Xác nhận xóa</string>
+    <string name="sheet_add_favorite">Thêm vào Yêu thích</string>
+    <string name="sheet_remove_library">Xóa khỏi thư viện</string>
+
+    <!-- Additional Localized UI Strings -->
+    <string name="quick_shuffle">Nghe ngẫu nhiên</string>
+    <string name="quick_favorites">Yêu thích</string>
+    <string name="quick_downloaded">Đã tải xuống</string>
+    <string name="quick_lofi">Lo-Fi Tập trung</string>
+    <string name="banner_badge_featured">NỔI BẬT HÔM NAY</string>
+    <string name="library_all_songs">Tất cả bài hát</string>
+    <string name="library_recent_and_downloaded">Nghe gần đây &amp; Đã tải</string>
+    <string name="count_songs_format">%d bài hát</string>
+    <string name="count_albums_format">%d album</string>
+    <string name="count_artists_format">%d nghệ sĩ</string>
+    <string name="detail_play">Phát</string>
+    <string name="detail_empty">Danh sách hiện đang trống</string>
+    <string name="search_empty">Không tìm thấy kết quả phù hợp</string>
+    <string name="player_playing_from">ĐANG PHÁT TỪ</string>
+    <string name="player_no_lyrics">Chưa có lời bài hát.</string>
+    <string name="profile_tap_edit_name">Chạm để đổi tên hiển thị</string>
+    <string name="profile_stat_plays">Lượt nghe</string>
+    <string name="profile_stat_time">Thời gian nghe</string>
+    <string name="profile_stat_downloaded">Đã tải offline</string>
+    <string name="profile_my_playlists">Playlist cá nhân</string>
+    <string name="profile_listen_history">Lịch sử nghe</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="theme_system">Hệ thống</string>
+    <string name="chart_banner_vn">BXH Việt Nam</string>
+    <string name="chart_banner_usuk">BXH US-UK</string>
+    <string name="chart_banner_kpop">BXH K-Pop</string>
+    <string name="download_engine_subtitle">Hỗ trợ YouTube, SoundCloud, TikTok, Playlist • yt-dlp + FFmpeg</string>
+    <string name="download_empty_list">Chưa có tác vụ tải xuống nào trong mục này</string>
+
+    <!-- Library & Formats -->
+    <string name="library_zero_songs">0 bài hát</string>
+    <string name="library_zero_albums">0 album</string>
+    <string name="library_zero_artists">0 nghệ sĩ</string>
+    <string name="library_source_title">Thư viện cá nhân</string>
+    <string name="toast_importing_song">Đang nhập bài hát vào thư viện...</string>
+    <string name="toast_imported_song">Đã thêm bài hát vào Nhạc đã tải xuống!</string>
+
+    <!-- Accessibility & Hints -->
+    <string name="cd_clear_search">Xóa từ khóa</string>
+    <string name="cd_pause_resume">Tạm dừng hoặc Tiếp tục</string>
+    <string name="hint_playlist_name">Tên playlist</string>
+    <string name="hint_playlist_desc">Mô tả (tùy chọn)</string>
+    <string name="hint_song_title">Tên bài hát</string>
+    <string name="hint_artist">Nghệ sĩ</string>
+    <string name="hint_album">Album</string>
+    <string name="hint_genre">Thể loại</string>
+
+    <!-- Profile, Settings & Time -->
+    <string name="profile_calculating_storage">Đang tính toán dung lượng...</string>
+    <string name="profile_player_summary_format">Tốc độ %1$sx • %2$s</string>
+    <string name="profile_crossfade_on">Crossfade bật</string>
+    <string name="profile_crossfade_off">Crossfade tắt</string>
+    <string name="profile_audio_summary_format">Equalizer: %1$s • Bass Boost: %2$s</string>
+    <string name="profile_state_on">Bật</string>
+    <string name="profile_state_off">Tắt</string>
+    <string name="profile_storage_summary_format">Đang sử dụng %s bộ nhớ offline</string>
+    <string name="profile_edit_name_title">Đổi tên người dùng</string>
+    <string name="player_speed_075">Tốc độ 0.75x</string>
+    <string name="player_speed_100">Tốc độ 1.0x (Chuẩn)</string>
+    <string name="player_speed_125">Tốc độ 1.25x</string>
+    <string name="player_speed_150">Tốc độ 1.5x</string>
+    <string name="player_crossfade_enable">Bật chuyển bài mượt (Crossfade)</string>
+    <string name="player_crossfade_disable">Tắt chuyển bài mượt (Crossfade)</string>
+    <string name="toast_player_settings_updated">Đã cập nhật cài đặt trình phát</string>
+    <string name="eq_balanced">Cân bằng</string>
+    <string name="eq_pop">Pop</string>
+    <string name="eq_bass">Bass mạnh</string>
+    <string name="eq_acoustic">Acoustic</string>
+    <string name="audio_bass_enable">Bật Bass Boost</string>
+    <string name="audio_bass_disable">Tắt Bass Boost</string>
+    <string name="toast_audio_settings_applied">Đã áp dụng hiệu ứng âm thanh</string>
+    <string name="storage_dialog_message_format">Tổng dung lượng nhạc offline và dữ liệu tải xuống: %s</string>
+    <string name="action_close">Đóng</string>
+    <string name="storage_clear_cache">Dọn bộ nhớ đệm</string>
+    <string name="toast_cache_cleared">Đã dọn dẹp bộ nhớ đệm</string>
+    <string name="about_app_message">Music — Trình phát nhạc Offline hiện đại\nPhiên bản: 1.0\nKiến trúc: Java + XML + Material Design 3 + Room + MediaPlayer</string>
+    <string name="time_sec_format">%d giây</string>
+    <string name="time_min_format">%d phút</string>
+    <string name="time_hour_min_format">%1$d giờ %2$d phút</string>
+
+    <!-- Discover Moods & Chart Source -->
+    <string name="mood_relax_title">Thư giãn</string>
+    <string name="mood_relax_sub">Nhạc nhẹ nhàng</string>
+    <string name="mood_focus_title">Tập trung</string>
+    <string name="mood_focus_sub">Lo-Fi &amp; Acoustic</string>
+    <string name="mood_energy_title">Năng lượng</string>
+    <string name="mood_energy_sub">V-Pop &amp; K-Pop</string>
+    <string name="mood_romance_title">Lãng mạn</string>
+    <string name="mood_romance_sub">Ballad tình cảm</string>
+    <string name="mood_night_title">Đêm muộn</string>
+    <string name="mood_night_sub">Midnight Synth</string>
+    <string name="chart_source_vn">#zingchart Việt Nam</string>
+
+    <!-- Detail & Search & Song Menu -->
+    <string name="detail_empty_play_toast">Không có bài hát để phát</string>
+    <string name="detail_added_queue_toast">Đã thêm %d bài hát vào hàng đợi</string>
+    <string name="detail_album_creator">Thư viện Album</string>
+    <string name="detail_album_desc">Tổng hợp các album offline trên thiết bị</string>
+    <string name="detail_artist_list_creator">Nghệ sĩ trong thư viện</string>
+    <string name="detail_artist_list_desc">Chọn nghệ sĩ để nghe toàn bộ các bài hát</string>
+    <string name="detail_playlist_creator_format">Tạo bởi %s</string>
+    <string name="detail_artist_creator">Nghệ sĩ</string>
+    <string name="detail_artist_desc_format">Tuyển tập các ca khúc của %s</string>
+    <string name="detail_fav_creator">Danh sách yêu thích</string>
+    <string name="detail_fav_desc">Những bài hát bạn đã nhấn yêu thích</string>
+    <string name="detail_dl_creator">Lưu trữ trên thiết bị</string>
+    <string name="detail_dl_desc">Nhạc tải xuống hoặc nhập từ bộ nhớ thiết bị</string>
+    <string name="detail_recent_creator">Lịch sử phát</string>
+    <string name="detail_recent_desc">Các bài hát bạn đã nghe gần đây</string>
+    <string name="detail_keyword_creator">Chủ đề &amp; Tâm trạng</string>
+    <string name="detail_keyword_desc_format">Âm nhạc chọn lọc theo từ khóa %s</string>
+    <string name="detail_all_creator">Kho nhạc Offline</string>
+    <string name="detail_all_desc">Toàn bộ bài hát hiện có trong thư viện</string>
+    <string name="detail_meta_songs_duration_format">%1$d bài hát • %2$s</string>
+    <string name="detail_delete_playlist">Xóa Playlist này</string>
+    <string name="toast_added_queue">Đã thêm vào hàng đợi</string>
+    <string name="toast_deleted_playlist">Đã xóa playlist</string>
+    <string name="sort_default">Mặc định</string>
+    <string name="sort_title_az">Tên bài hát (A-Z)</string>
+    <string name="sort_artist_az">Nghệ sĩ (A-Z)</string>
+    <string name="sort_duration_desc">Thời lượng (Dài nhất)</string>
+    <string name="search_source_title">Kết quả tìm kiếm</string>
+    <string name="sheet_remove_favorite">Xóa khỏi Yêu thích</string>
+    <string name="toast_added_favorite">Đã thêm vào Yêu thích</string>
+    <string name="toast_removed_favorite">Đã bỏ Yêu thích</string>
+    <string name="toast_added_to_named_playlist">Đã thêm vào \"%s\"</string>
+    <string name="dialog_create_playlist_title">Tạo Playlist mới</string>
+    <string name="action_create">Tạo</string>
+    <string name="toast_enter_playlist_name">Vui lòng nhập tên playlist</string>
+    <string name="toast_created_playlist">Đã tạo playlist \"%s\"</string>
+    <string name="unknown_artist">Chưa rõ nghệ sĩ</string>
+    <string name="toast_song_updated">Đã cập nhật thông tin bài hát</string>
+    <string name="single_album">Đĩa đơn</string>
+    <string name="status_downloaded_offline">Đã tải offline</string>
+    <string name="status_local_library">Thư viện nội bộ</string>
+    <string name="song_info_format">Tên bài hát: %1$s\nNghệ sĩ: %2$s\nAlbum: %3$s\nThể loại: %4$s\nTâm trạng: %5$s\nThời lượng: %6$s\nLượt phát: %7$d\nKích thước tệp: %8$s\nTrạng thái: %9$s</string>
+    <string name="delete_song_confirm_format">Bạn có chắc muốn xóa \"%s\" khỏi thư viện?</string>
+    <string name="toast_song_deleted">Đã xóa bài hát</string>
+
+    <!-- Download & Tasks -->
+    <string name="download_enter_url_toast">Vui lòng nhập liên kết nhạc hoặc video</string>
+    <string name="download_clipboard_empty">Clipboard đang trống</string>
+    <string name="download_video_saved_toast">Video đã được lưu vào Movies/OfficeAI</string>
+    <string name="download_audio_saved_toast">Đã lưu vào Thư viện &gt; Nhạc đã tải xuống</string>
+    <string name="download_duration_format">Thời lượng: %s</string>
+    <string name="download_playlist_badge_format">%1$s • Playlist %2$d bài</string>
+    <string name="dl_meta_queued_format">%1$s %2$s • Đang chờ hàng đợi</string>
+    <string name="dl_status_preparing">Đang chuẩn bị tải xuống...</string>
+    <string name="dl_status_converting">Đang chuyển đổi FFmpeg...</string>
+    <string name="dl_playlist_item_prefix_format">Bài %1$d/%2$d • </string>
+    <string name="dl_eta_format"> • Còn %ds</string>
+    <string name="dl_status_downloading_format">Đang tải (%1$d%%) • %2$s %3$s%4$s</string>
+    <string name="dl_status_paused_format">Tạm dừng (%d%%) — Nhấn để tiếp tục</string>
+    <string name="dl_status_completed_video">Hoàn thành • Đã lưu vào Movies/OfficeAI</string>
+    <string name="dl_status_completed_audio">Hoàn thành • Đã lưu Thư viện &amp; Music/OfficeAI</string>
+    <string name="dl_status_failed">Tải xuống thất bại</string>
+    <string name="dl_vm_added_playlist">Đã thêm playlist (%d mục) vào hàng đợi tải xuống</string>
+    <string name="dl_vm_added_queue">Đã thêm vào hàng đợi tải xuống</string>
+    <string name="dl_vm_duplicate">Tác vụ này đã tồn tại trong danh sách tải hoặc đã hoàn thành</string>
+
+    <!-- Device Scan & Download Folder -->
+    <string name="library_scan_device">Quét nhạc trong máy</string>
+    <string name="toast_scanning_device">Đang quét nhạc trên thiết bị...</string>
+    <string name="toast_scan_found_format">Đã thêm %d bài hát từ thiết bị</string>
+    <string name="toast_scan_no_new">Không có bài hát mới trên thiết bị</string>
+    <string name="toast_scan_permission_denied">Cần cấp quyền âm thanh để quét nhạc trong máy</string>
+    <string name="download_folder_label_format">Thư mục lưu: %s</string>
+    <string name="download_folder_default">Music/Music (Mặc định)</string>
+    <string name="download_choose_folder">Chọn thư mục</string>
+    <string name="download_reset_folder">Mặc định</string>
+    <string name="toast_download_folder_updated">Đã chọn thư mục lưu: %s</string>
+    <string name="toast_download_folder_reset">Đã đặt lại thư mục lưu mặc định</string>
+    <string name="toast_storage_permission_legacy">Cần quyền bộ nhớ để lưu tệp trên Android 8–9</string>
+
+    <!-- 3-Tab Liquid Nav, Artwork Editing & Theme Studio -->
+    <string name="nav_download">Download</string>
+    <string name="sheet_change_cover">Đổi ảnh bài hát</string>
+    <string name="sheet_reset_cover">Đặt lại đĩa mặc định</string>
+    <string name="toast_cover_updated">Đã cập nhật ảnh bài hát</string>
+    <string name="toast_cover_update_failed">Không thể đọc ảnh đã chọn</string>
+    <string name="toast_cover_reset">Đã khôi phục đĩa xoay mặc định</string>
+
+    <string name="theme_studio_title">Theme Studio</string>
+    <string name="theme_studio_subtitle">Dark Botanical Glassmorphism &amp; Dải màu Linear Gradient</string>
+    <string name="theme_studio_customize">Tùy chỉnh</string>
+    <string name="theme_studio_gradients_label">Chọn Linear Gradient phổ biến</string>
+    <string name="theme_studio_glass_intensity">Độ xuyên thấu lá nhiệt đới</string>
+    <string name="theme_studio_preview_sub">Nền kính mờ • Dải chuyển sắc mượt mà</string>
+
+    <string name="theme_preset_botanical">Rừng rậm</string>
+    <string name="theme_preset_aurora">Cực quang</string>
+    <string name="theme_preset_orchid">Lan đêm</string>
+    <string name="theme_preset_ocean">Đại dương</string>
+    <string name="theme_preset_sunset">Hoàng hôn</string>
+    <string name="theme_preset_cyber">Cyber Tím</string>
+    <string name="theme_preset_golden">Rêu vàng</string>
+    <string name="theme_preset_rose">Hồng sương</string>
+</resources>
